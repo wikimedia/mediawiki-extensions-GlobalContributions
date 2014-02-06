@@ -30,3 +30,14 @@ $messages['qqq'] = array(
 	'globalcontributions' => 'Title of Special:GlobalContributions special page',
 	'globalcontributions-legend' => 'Legend for form on Special:GlobalContributions',
 );
+
+/** German (Deutsch)
+ * @author Metalhead64
+ */
+$messages['de'] = array(
+	'guc-desc' => 'Ermöglicht es Benutzern, Beiträge von allen Wikis anzusehen.',
+	'guc-form-user' => 'Benutzername oder IP-Adresse',
+	'guc-invalid-username' => 'Es wurde ein ungültiger Benutzername oder eine ungültige IP-Adresse angegeben.',
+	'globalcontributions' => 'Globale Beiträge',
+	'globalcontributions-legend' => 'Globale Beiträge',
+);
