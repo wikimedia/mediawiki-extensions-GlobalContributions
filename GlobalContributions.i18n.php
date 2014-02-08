@@ -22,13 +22,14 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Kunal Mehta
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
 	'guc-desc' => '{{desc|name=GlobalContributions|url=https://www.mediawiki.org/wiki/Extension:GlobalContributions}}',
 	'guc-form-user' => 'Label for field on form',
 	'guc-invalid-username' => 'Error message shown to user if the username they provided is invalid',
-	'globalcontributions' => 'Title of Special:GlobalContributions special page',
-	'globalcontributions-legend' => 'Legend for form on Special:GlobalContributions',
+	'globalcontributions' => '{{doc-special|GlobalContributions}}',
+	'globalcontributions-legend' => 'Used as fieldset label in [[Special:GlobalContributions]].',
 );
 
 /** Asturian (asturianu)
@@ -40,6 +41,15 @@ $messages['ast'] = array(
 	'guc-invalid-username' => "Diose un nome d'usuariu o direición IP inválidu",
 	'globalcontributions' => 'Contribuciones globales',
 	'globalcontributions-legend' => 'Contribuciones globales',
+);
+
+/** Azerbaijani (azərbaycanca)
+ * @author Cekli829
+ */
+$messages['az'] = array(
+	'guc-form-user' => 'İstifadəçi adı və ya IP ünvanı',
+	'globalcontributions' => 'Qlobal töhfələr',
+	'globalcontributions-legend' => 'Qlobal töhfələr',
 );
 
 /** German (Deutsch)
@@ -108,11 +118,22 @@ $messages['id'] = array(
 	'globalcontributions-legend' => 'Kontribusi global',
 );
 
+/** Japanese (日本語)
+ * @author Shirayuki
+ */
+$messages['ja'] = array(
+	'guc-form-user' => '利用者名または IP アドレス',
+	'guc-invalid-username' => '指定した利用者名または IP アドレスは無効です',
+	'globalcontributions' => 'グローバル投稿記録',
+	'globalcontributions-legend' => 'グローバル投稿記録',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
 $messages['lb'] = array(
 	'guc-form-user' => 'Benotzernumm oder IP-Adress',
+	'guc-invalid-username' => 'Net valabele Benotzernumm oder IP-Adress uginn',
 	'globalcontributions' => 'Global Kontributiounen',
 	'globalcontributions-legend' => 'Global Kontributiounen',
 );
@@ -134,6 +155,17 @@ $messages['mk'] = array(
 $messages['nl'] = array(
 	'guc-form-user' => 'Gebruikersnaam of IP-adres',
 	'guc-invalid-username' => 'Ongeldige gebruikersnaam of IP-adres opgegeven',
+);
+
+/** Polish (polski)
+ * @author Chrumps
+ */
+$messages['pl'] = array(
+	'guc-desc' => 'Umożliwia przeglądanie wkład użytkownika we wszystkich wiki',
+	'guc-form-user' => 'Nazwa użytkownika lub adres IP',
+	'guc-invalid-username' => 'Podano nieprawidłową nazwę użytkownika lub nieprawidłowy adres IP.',
+	'globalcontributions' => 'Globalny wkład',
+	'globalcontributions-legend' => 'Globalny wkład',
 );
 
 /** Portuguese (português)
@@ -166,4 +198,26 @@ $messages['sv'] = array(
 	'guc-invalid-username' => 'Ogiltigt användarnamn eller IP-adress angivet',
 	'globalcontributions' => 'Globala bidrag',
 	'globalcontributions-legend' => 'Globala bidrag',
+);
+
+/** Turkish (Türkçe)
+ * @author Joseph
+ */
+$messages['tr'] = array(
+	'guc-desc' => 'Kullanıcıların, bir kullanıcının tüm vikilerdeki katkılarını görüntülemesine izin verir',
+	'guc-form-user' => 'Kullanıcı adı veya IP adresi',
+	'guc-invalid-username' => 'Geçersiz kullanıcı adı veya IP adresi verildi',
+	'globalcontributions' => 'Küresel katkılar',
+	'globalcontributions-legend' => 'Küresel katkılar',
+);
+
+/** Ukrainian (українська)
+ * @author Ата
+ */
+$messages['uk'] = array(
+	'guc-desc' => 'Дозволяє користувачам переглядати внесок користувача в усіх вікі',
+	'guc-form-user' => "Ім'я користувача або IP-адреса",
+	'guc-invalid-username' => "Вказано неправильне ім'я користувача або IP-адресу",
+	'globalcontributions' => 'Глобальний внесок',
+	'globalcontributions-legend' => 'Глобальний внесок',
 );
