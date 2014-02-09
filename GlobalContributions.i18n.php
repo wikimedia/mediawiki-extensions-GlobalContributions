@@ -74,6 +74,28 @@ $messages['dsb'] = array(
 	'globalcontributions-legend' => 'Globalne pśinoski',
 );
 
+/** Spanish (español)
+ * @author Fitoschido
+ */
+$messages['es'] = array(
+	'guc-desc' => 'Permite visualizar las contribuciones de un usuario en todos los wikis',
+	'guc-form-user' => 'Nombre de usuario o dirección IP',
+	'guc-invalid-username' => 'El nombre de usuario o IP proporcionado no es válido',
+	'globalcontributions' => 'Contribuciones globales',
+	'globalcontributions-legend' => 'Contribuciones globales',
+);
+
+/** Persian (فارسی)
+ * @author Armin1392
+ */
+$messages['fa'] = array(
+	'guc-desc' => 'اجازه به کاربران برای مشاهدهٔ کمک‌های کاربران در سرتاسر همهٔ ویکی‌ها',
+	'guc-form-user' => 'نام کاربری یا آدرس آی‌پی',
+	'guc-invalid-username' => 'نام کاربری یا آدرس آی‌پی ارائه شدهٔ نامعتبر',
+	'globalcontributions' => 'کمک‌های جهانی',
+	'globalcontributions-legend' => 'کمک‌های جهانی',
+);
+
 /** French (français)
  * @author Dr Brains
  */
@@ -132,6 +154,7 @@ $messages['ja'] = array(
  * @author Robby
  */
 $messages['lb'] = array(
+	'guc-desc' => 'Erlaabt et Benotzer engem Benotzer seng Kontributiounen an alle Wikien ze gesinn',
 	'guc-form-user' => 'Benotzernumm oder IP-Adress',
 	'guc-invalid-username' => 'Net valabele Benotzernumm oder IP-Adress uginn',
 	'globalcontributions' => 'Global Kontributiounen',
@@ -220,4 +243,26 @@ $messages['uk'] = array(
 	'guc-invalid-username' => "Вказано неправильне ім'я користувача або IP-адресу",
 	'globalcontributions' => 'Глобальний внесок',
 	'globalcontributions-legend' => 'Глобальний внесок',
+);
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Liuxinyu970226
+ */
+$messages['zh-hans'] = array(
+	'guc-desc' => '允许用户查阅某用户所有wiki的贡献',
+	'guc-form-user' => '用户名或IP地址',
+	'guc-invalid-username' => '提供了无效的用户名或IP地址',
+	'globalcontributions' => '全域贡献',
+	'globalcontributions-legend' => '全域贡献',
+);
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Liuxinyu970226
+ */
+$messages['zh-hant'] = array(
+	'guc-desc' => '允許用戶查看某用戶所有wiki貢獻',
+	'guc-form-user' => '用戶名或IP位址',
+	'guc-invalid-username' => '提供的用戶名或IP位址無效',
+	'globalcontributions' => '全域貢獻',
+	'globalcontributions-legend' => '全域貢獻',
 );
