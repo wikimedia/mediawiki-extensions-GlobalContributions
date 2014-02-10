@@ -140,10 +140,23 @@ $messages['id'] = array(
 	'globalcontributions-legend' => 'Kontribusi global',
 );
 
+/** Italian (italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'guc-desc' => 'Consente agli utenti di visualizzare i contributi di un utente su tutti i wiki',
+	'guc-form-user' => 'Nome utente o indirizzo IP',
+	'guc-invalid-username' => 'Fornito nome utente o indirizzo IP non valido',
+	'globalcontributions' => 'Contributi globali',
+	'globalcontributions-legend' => 'Contributi globali',
+);
+
 /** Japanese (日本語)
  * @author Shirayuki
+ * @author Whym
  */
 $messages['ja'] = array(
+	'guc-desc' => '利用者の全ウィキを通じた投稿記録を見られるようにします',
 	'guc-form-user' => '利用者名または IP アドレス',
 	'guc-invalid-username' => '指定した利用者名または IP アドレスは無効です',
 	'globalcontributions' => 'グローバル投稿記録',
@@ -170,6 +183,17 @@ $messages['mk'] = array(
 	'guc-invalid-username' => 'Укажано е неважечко корисничко име или IP-адреса',
 	'globalcontributions' => 'Глобални придонеси',
 	'globalcontributions-legend' => 'Глобални придонеси',
+);
+
+/** Marathi (मराठी)
+ * @author V.narsikar
+ */
+$messages['mr'] = array(
+	'guc-desc' => 'सदस्यांना, एखाद्या सदस्याचे सर्व विकिंवरील योगदान बघण्यास परवानगी देते',
+	'guc-form-user' => 'सदस्यनाव किंवा अंकपत्ता',
+	'guc-invalid-username' => 'अवैध सदस्यनाव किंवा अंकपत्ता दिल्या गेला',
+	'globalcontributions' => 'वैश्विक योगदान',
+	'globalcontributions-legend' => 'वैश्विक योगदान',
 );
 
 /** Dutch (Nederlands)
