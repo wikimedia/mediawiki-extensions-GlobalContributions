@@ -215,6 +215,16 @@ $messages['pl'] = array(
 	'globalcontributions-legend' => 'Globalny wkład',
 );
 
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'guc-form-user' => 'کارن نوم يا آی پي پته',
+	'guc-invalid-username' => 'ناسم کارن نوم يا آی پي پته مو ورکړې',
+	'globalcontributions' => 'نړېوالې ونډې',
+	'globalcontributions-legend' => 'نړېوالې ونډې',
+);
+
 /** Portuguese (português)
  * @author Imperadeiro98
  */
