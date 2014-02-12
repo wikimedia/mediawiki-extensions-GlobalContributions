@@ -32,6 +32,17 @@ $messages['qqq'] = array(
 	'globalcontributions-legend' => 'Used as fieldset label in [[Special:GlobalContributions]].',
 );
 
+/** Arabic (العربية)
+ * @author Asaifm
+ */
+$messages['ar'] = array(
+	'guc-desc' => 'يسمح للمستخدمين بمطالعة مساهمات مستخدم ما على كل الويكيات',
+	'guc-form-user' => 'اسم مستخدم أو عنوان بروتوكول إنترنت',
+	'guc-invalid-username' => 'تم توفير اسم مستخدم أو عنوان بروتوكول إنترنت غير صحيح',
+	'globalcontributions' => 'المساهمات الإجمالية',
+	'globalcontributions-legend' => 'المساهمات الإجمالية',
+);
+
 /** Asturian (asturianu)
  * @author Xuacu
  */
@@ -118,6 +129,16 @@ $messages['gl'] = array(
 	'globalcontributions-legend' => 'Contribucións globais',
 );
 
+/** Hindi (हिन्दी)
+ * @author Siddhartha Ghai
+ */
+$messages['hi'] = array(
+	'guc-form-user' => 'सदस्य नाम या आइ॰पी पता',
+	'guc-invalid-username' => 'दिया गया सदस्यनाम या आइ॰पी पता अमान्य है',
+	'globalcontributions' => 'वैश्विक योगदान',
+	'globalcontributions-legend' => 'वैश्विक योगदान',
+);
+
 /** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
@@ -202,6 +223,17 @@ $messages['mr'] = array(
 $messages['nl'] = array(
 	'guc-form-user' => 'Gebruikersnaam of IP-adres',
 	'guc-invalid-username' => 'Ongeldige gebruikersnaam of IP-adres opgegeven',
+);
+
+/** Oriya (ଓଡ଼ିଆ)
+ * @author Jnanaranjan Sahu
+ */
+$messages['or'] = array(
+	'guc-desc' => 'ବ୍ୟବହାରକାରୀମାନଙ୍କୁ ସମସ୍ତ ଉଇକିରେ ହୋଇଥିବା ବଦଳଗୁଡିକୁ ଦେଖାଇଥାଏ',
+	'guc-form-user' => 'ବ୍ୟବହାରକାର ନାମ କିମ୍ବା ଆଇପି ଠିକଣା',
+	'guc-invalid-username' => 'ବୈଧ ନଥିବା ବ୍ୟବହାରକାରୀନାମ କିମ୍ବା ଆଇପି ଠିକଣା ଦେଇଛନ୍ତି',
+	'globalcontributions' => 'ଜାଗତିକ ଅବଦାନ',
+	'globalcontributions-legend' => 'ଜାଗତିକ ଅବଦାନଗୁଡିକ',
 );
 
 /** Polish (polski)
