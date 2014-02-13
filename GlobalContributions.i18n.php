@@ -184,6 +184,17 @@ $messages['ja'] = array(
 	'globalcontributions-legend' => 'グローバル投稿記録',
 );
 
+/** Korean (한국어)
+ * @author Priviet
+ */
+$messages['ko'] = array(
+	'guc-desc' => '모든 위키에서 사용자의 기여를 다른 사용자들에게 보이도록 허용',
+	'guc-form-user' => '사용자 이름 또는 IP 주소',
+	'guc-invalid-username' => '올바르지 않은 사용자 이름 또는 IP 주소가 입력되었습니다',
+	'globalcontributions' => '전역 기여',
+	'globalcontributions-legend' => '전역 기여',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
@@ -276,6 +287,17 @@ $messages['ru'] = array(
 	'guc-invalid-username' => 'Предоставлено неверное имя участника или IP-адрес',
 	'globalcontributions' => 'Глобальный вклад',
 	'globalcontributions-legend' => 'Глобальный вклад',
+);
+
+/** Somali (Soomaaliga)
+ * @author Abshirdheere
+ */
+$messages['so'] = array(
+	'guc-desc' => 'Waxa loo ogolaanayaa gudagaleyaasha in ay eegi karaan waxa uu ku qoray dhamaan wikiyada isticmaale kaste',
+	'guc-form-user' => 'Magaca gudagalaha ama ciwaanka IP-da internet-ka',
+	'guc-invalid-username' => 'Sax maaha magaca gudagalaha ama ciwaanka IP-da aad gelisay',
+	'globalcontributions' => 'Ku darsiga guud',
+	'globalcontributions-legend' => 'Ku darsiga guud',
 );
 
 /** Swedish (svenska)
