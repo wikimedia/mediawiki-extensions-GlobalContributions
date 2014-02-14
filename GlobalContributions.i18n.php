@@ -129,6 +129,17 @@ $messages['gl'] = array(
 	'globalcontributions-legend' => 'Contribucións globais',
 );
 
+/** Hebrew (עברית)
+ * @author Yona b
+ */
+$messages['he'] = array(
+	'guc-desc' => 'מאפשר למשתמשים לראות את תרומות המשתמש של כל הויקי האחרים',
+	'guc-form-user' => 'שם משתמש או כתובת IP',
+	'guc-invalid-username' => 'שם משתמש או כתובת IP שגויים',
+	'globalcontributions' => 'תרומות גלובליות',
+	'globalcontributions-legend' => 'תרומות גלובליות',
+);
+
 /** Hindi (हिन्दी)
  * @author Siddhartha Ghai
  */
@@ -309,6 +320,17 @@ $messages['sv'] = array(
 	'guc-invalid-username' => 'Ogiltigt användarnamn eller IP-adress angivet',
 	'globalcontributions' => 'Globala bidrag',
 	'globalcontributions-legend' => 'Globala bidrag',
+);
+
+/** Telugu (తెలుగు)
+ * @author Chaduvari
+ */
+$messages['te'] = array(
+	'guc-desc' => 'ఎవరైనా వాడుకరి వికీలన్నిటిలోనూ చేసిన మార్పుచేర్పులను వాడుకరులకు చూపిస్తుంది',
+	'guc-form-user' => 'వాడుకరిపేరు లేదా ఐపీ చిరునామా',
+	'guc-invalid-username' => 'చెల్లని వాడుకరిపేరు లేదా ఐపీ చిరునామా ఇచ్చారు',
+	'globalcontributions' => 'సార్వత్రిక మార్పుచేర్పులు',
+	'globalcontributions-legend' => 'సార్వత్రిక మార్పుచేర్పులు',
 );
 
 /** Turkish (Türkçe)
