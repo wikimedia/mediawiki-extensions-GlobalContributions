@@ -173,12 +173,13 @@ $messages['id'] = array(
 );
 
 /** Italian (italiano)
+ * @author Ankabel
  * @author Beta16
  */
 $messages['it'] = array(
 	'guc-desc' => 'Consente agli utenti di visualizzare i contributi di un utente su tutti i wiki',
 	'guc-form-user' => 'Nome utente o indirizzo IP',
-	'guc-invalid-username' => 'Fornito nome utente o indirizzo IP non valido',
+	'guc-invalid-username' => "Nome utente non valido o l'indirizzo IP fornito",
 	'globalcontributions' => 'Contributi globali',
 	'globalcontributions-legend' => 'Contributi globali',
 );
