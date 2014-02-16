@@ -63,6 +63,17 @@ $messages['az'] = array(
 	'globalcontributions-legend' => 'Qlobal töhfələr',
 );
 
+/** Bengali (বাংলা)
+ * @author Aftab1995
+ */
+$messages['bn'] = array(
+	'guc-desc' => 'সব উইকিগুলিতে একজন ব্যবহারকারীর অবদানসমূহ ব্যবহারকারীদের দেখতে দেয়',
+	'guc-form-user' => 'ব্যবহারকারী নাম বা আইপি ঠিকানা',
+	'guc-invalid-username' => 'ভুল ব্যবহারকারী নাম বা আইপি ঠিকানা প্রদান করা হয়েছে',
+	'globalcontributions' => 'গ্লোবাল অবদান',
+	'globalcontributions-legend' => 'গ্লোবাল অবদান',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
@@ -105,6 +116,17 @@ $messages['fa'] = array(
 	'guc-invalid-username' => 'نام کاربری یا آدرس آی‌پی ارائه شدهٔ نامعتبر',
 	'globalcontributions' => 'کمک‌های جهانی',
 	'globalcontributions-legend' => 'کمک‌های جهانی',
+);
+
+/** Finnish (suomi)
+ * @author Stryn
+ */
+$messages['fi'] = array(
+	'guc-desc' => 'Käyttäjät voivat tarkastella käyttäjien muokkauksia kaikissa wikeissä',
+	'guc-form-user' => 'Käyttäjänimi tai IP-osoite',
+	'guc-invalid-username' => 'Virheellinen käyttäjänimi tai IP-osoite annettu',
+	'globalcontributions' => 'Järjestelmänlaajuiset muokkaukset',
+	'globalcontributions-legend' => 'Järjestelmänlaajuiset muokkaukset',
 );
 
 /** French (français)
@@ -238,6 +260,17 @@ $messages['mr'] = array(
 	'guc-invalid-username' => 'अवैध सदस्यनाव किंवा अंकपत्ता दिल्या गेला',
 	'globalcontributions' => 'वैश्विक योगदान',
 	'globalcontributions-legend' => 'वैश्विक योगदान',
+);
+
+/** Norwegian Bokmål (norsk bokmål)
+ * @author Danmichaelo
+ */
+$messages['nb'] = array(
+	'guc-desc' => 'Lar brukere vise en brukers bidrag på tvers av alle wikier',
+	'guc-form-user' => 'Brukernavn eller IP-adresse',
+	'guc-invalid-username' => 'Ugyldig brukernavn eller IP-adresse oppgitt',
+	'globalcontributions' => 'Globale bidrag',
+	'globalcontributions-legend' => 'Globale bidrag',
 );
 
 /** Dutch (Nederlands)
