@@ -201,7 +201,7 @@ $messages['id'] = array(
 $messages['it'] = array(
 	'guc-desc' => 'Consente agli utenti di visualizzare i contributi di un utente su tutti i wiki',
 	'guc-form-user' => 'Nome utente o indirizzo IP',
-	'guc-invalid-username' => "Nome utente non valido o l'indirizzo IP fornito",
+	'guc-invalid-username' => 'Fornito nome utente o indirizzo IP non valido',
 	'globalcontributions' => 'Contributi globali',
 	'globalcontributions-legend' => 'Contributi globali',
 );
