@@ -334,6 +334,17 @@ $messages['ru'] = array(
 	'globalcontributions-legend' => 'Глобальный вклад',
 );
 
+/** Scots (Scots)
+ * @author John Reid
+ */
+$messages['sco'] = array(
+	'guc-desc' => "Allows uisers te view ae uiser's contributions across aw wikis",
+	'guc-form-user' => 'Uisername or IP address',
+	'guc-invalid-username' => 'Invalit uisername or IP address provided',
+	'globalcontributions' => 'Global contributions',
+	'globalcontributions-legend' => 'Global contributions',
+);
+
 /** Somali (Soomaaliga)
  * @author Abshirdheere
  */
