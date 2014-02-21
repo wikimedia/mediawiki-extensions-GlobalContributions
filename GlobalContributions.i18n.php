@@ -74,6 +74,17 @@ $messages['bn'] = array(
 	'globalcontributions-legend' => 'গ্লোবাল অবদান',
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'guc-desc' => 'Декъашхочун массо википедешкахь болу къинхьегаме хьажа таро хуьлуьйту',
+	'guc-form-user' => 'Декъашхочун цӀе я IP-адрес',
+	'guc-invalid-username' => 'Язйина декъашхочун цӀе я IP-адрес нийса яц',
+	'globalcontributions' => 'Глобальни къинхьегам',
+	'globalcontributions-legend' => 'Глобальни къинхьегам',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
@@ -275,10 +286,14 @@ $messages['nb'] = array(
 
 /** Dutch (Nederlands)
  * @author SPQRobin
+ * @author Southparkfan
  */
 $messages['nl'] = array(
+	'guc-desc' => "Geeft gebruikers de mogelijkheid om de bijdragen van een gebruiker op alle wiki's te bekijken.",
 	'guc-form-user' => 'Gebruikersnaam of IP-adres',
 	'guc-invalid-username' => 'Ongeldige gebruikersnaam of IP-adres opgegeven',
+	'globalcontributions' => 'Globale bijdragen',
+	'globalcontributions-legend' => 'Globale bijdragen',
 );
 
 /** Oriya (ଓଡ଼ିଆ)
