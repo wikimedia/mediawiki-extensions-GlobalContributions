@@ -322,6 +322,7 @@ $messages['pl'] = array(
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
 $messages['ps'] = array(
+	'guc-desc' => 'کارنان په دې توانوي چې په ټولو ويکي گانو باندې د يو کارن ونډې وکتلای شي',
 	'guc-form-user' => 'کارن نوم يا آی پي پته',
 	'guc-invalid-username' => 'ناسم کارن نوم يا آی پي پته مو ورکړې',
 	'globalcontributions' => 'نړېوالې ونډې',
