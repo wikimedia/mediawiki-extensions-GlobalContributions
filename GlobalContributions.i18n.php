@@ -385,11 +385,12 @@ $messages['sv'] = array(
 
 /** Telugu (తెలుగు)
  * @author Chaduvari
+ * @author Veeven
  */
 $messages['te'] = array(
 	'guc-desc' => 'ఎవరైనా వాడుకరి వికీలన్నిటిలోనూ చేసిన మార్పుచేర్పులను వాడుకరులకు చూపిస్తుంది',
-	'guc-form-user' => 'వాడుకరిపేరు లేదా ఐపీ చిరునామా',
-	'guc-invalid-username' => 'చెల్లని వాడుకరిపేరు లేదా ఐపీ చిరునామా ఇచ్చారు',
+	'guc-form-user' => 'వాడుకరి పేరు లేదా ఐపీ చిరునామా',
+	'guc-invalid-username' => 'చెల్లని వాడుకరి పేరు లేదా ఐపీ చిరునామా ఇచ్చారు',
 	'globalcontributions' => 'సార్వత్రిక మార్పుచేర్పులు',
 	'globalcontributions-legend' => 'సార్వత్రిక మార్పుచేర్పులు',
 );
