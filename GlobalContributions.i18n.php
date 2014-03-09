@@ -205,6 +205,17 @@ $messages['id'] = array(
 	'globalcontributions-legend' => 'Kontribusi global',
 );
 
+/** Iloko (Ilokano)
+ * @author Lam-ang
+ */
+$messages['ilo'] = array(
+	'guc-desc' => 'Mangpalubos kadagiti agar-aramat a mangkita kadagiti kontribusion ti agar-aramat kadagiti amin a wiki',
+	'guc-form-user' => 'Nagan ti agar-aramat wenno IP a pagtaengan',
+	'guc-invalid-username' => 'Imbalido ti naited a nagan ti agar-aramat wenno IP a pagtaengan',
+	'globalcontributions' => 'Dagiti global a kontribusion',
+	'globalcontributions-legend' => 'Dagiti global a kontribusion',
+);
+
 /** Italian (italiano)
  * @author Ankabel
  * @author Beta16
