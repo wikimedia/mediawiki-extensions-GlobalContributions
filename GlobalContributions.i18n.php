@@ -240,6 +240,17 @@ $messages['ja'] = array(
 	'globalcontributions-legend' => 'グローバル投稿記録',
 );
 
+/** Khmer (ភាសាខ្មែរ)
+ * @author Sovichet
+ */
+$messages['km'] = array(
+	'guc-desc' => 'អនុញ្ញាត​ឲ្យ​អ្នក​ប្រើ​អាច​មើល​ការ​រួម​ចំណែក​របស់​អ្នក​ប្រើ​ណា​ម្នាក់​នៅ​គ្រប់​វិគី',
+	'guc-form-user' => 'ឈ្មោះ​អ្នក​ប្រើ ឬ អាសយដ្ឋាន IP',
+	'guc-invalid-username' => 'បាន​ផ្ដល់​ឈ្មោះ​អ្នក​ប្រើ ឬ អាសយដ្ឋាន IP ដែល​មិន​ត្រឹម​ត្រូវ',
+	'globalcontributions' => 'ការ​រួម​ចំណែក​ជា​សាកល',
+	'globalcontributions-legend' => 'ការ​រួម​ចំណែក​ជា​សាកល',
+);
+
 /** Korean (한국어)
  * @author Priviet
  */
