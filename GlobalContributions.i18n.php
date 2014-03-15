@@ -318,6 +318,17 @@ $messages['nl'] = array(
 	'globalcontributions-legend' => 'Globale bijdragen',
 );
 
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'guc-desc' => 'Permet de veire las contribucions d’un utilizaire sus totes los wikis',
+	'guc-form-user' => 'Nom d’utilizaire o adreça IP',
+	'guc-invalid-username' => 'Nom d’utilizaire o adreça IP invalida',
+	'globalcontributions' => 'Contribucions globalas',
+	'globalcontributions-legend' => 'Contribucions globalas',
+);
+
 /** Oriya (ଓଡ଼ିଆ)
  * @author Jnanaranjan Sahu
  */
@@ -378,7 +389,7 @@ $messages['ru'] = array(
 $messages['sco'] = array(
 	'guc-desc' => "Allows uisers te view ae uiser's contributions across aw wikis",
 	'guc-form-user' => 'Uisername or IP address',
-	'guc-invalid-username' => 'Invalit uisername or IP address provided',
+	'guc-invalid-username' => 'Onvalit uisername or IP address gien',
 	'globalcontributions' => 'Global contributions',
 	'globalcontributions-legend' => 'Global contributions',
 );
