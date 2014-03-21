@@ -29,6 +29,11 @@ $specialPageAliases['de'] = array(
 	'GlobalContributions' => array( 'Globale_Beiträge' ),
 );
 
+/** Zazaki (Zazaki) */
+$specialPageAliases['diq'] = array(
+	'GlobalContributions' => array( 'DekerdışéGlobali' ),
+);
+
 /** Persian (فارسی) */
 $specialPageAliases['fa'] = array(
 	'GlobalContributions' => array( 'مشارکت‌های_سراسری' ),
