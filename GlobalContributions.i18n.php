@@ -240,6 +240,16 @@ $messages['ja'] = array(
 	'globalcontributions-legend' => 'グローバル投稿記録',
 );
 
+/** Kazakh (Cyrillic script) (қазақша (кирил)‎)
+ * @author Arystanbek
+ */
+$messages['kk-cyrl'] = array(
+	'guc-form-user' => 'Қатысушы есімі немесе IP мекенжайы',
+	'guc-invalid-username' => 'Жарамсыз қатысушы есімі немесе IP мекенжайы көрсетілген',
+	'globalcontributions' => 'Ғаламдық үлесі',
+	'globalcontributions-legend' => 'Ғаламдық үлесі',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author Sovichet
  */
