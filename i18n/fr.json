@@ -1,0 +1,12 @@
+{
+    "@metadata": {
+        "authors": [
+            "Dr Brains"
+        ]
+    },
+    "guc-desc": "Permet de voir les contributions d’un utilisateur sur tous les wikis",
+    "guc-form-user": "Nom d’utilisateur ou adresse IP",
+    "guc-invalid-username": "Nom d’utilisateur ou adresse IP non valide",
+    "globalcontributions": "Contributions globales",
+    "globalcontributions-legend": "Contributions globales"
+}

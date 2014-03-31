@@ -1,0 +1,13 @@
+{
+    "@metadata": {
+        "authors": [
+            "Shirayuki",
+            "Whym"
+        ]
+    },
+    "guc-desc": "利用者の全ウィキを通じた投稿記録を見られるようにします",
+    "guc-form-user": "利用者名または IP アドレス",
+    "guc-invalid-username": "指定した利用者名または IP アドレスは無効です",
+    "globalcontributions": "グローバル投稿記録",
+    "globalcontributions-legend": "グローバル投稿記録"
+}

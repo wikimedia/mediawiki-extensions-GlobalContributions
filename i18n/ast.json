@@ -1,0 +1,12 @@
+{
+    "@metadata": {
+        "authors": [
+            "Xuacu"
+        ]
+    },
+    "guc-desc": "Permite a los usuarios ver les contribuciones d'un usuariu ente toles wikis",
+    "guc-form-user": "Nome d'usuariu o direición IP",
+    "guc-invalid-username": "Diose un nome d'usuariu o direición IP inválidu",
+    "globalcontributions": "Contribuciones globales",
+    "globalcontributions-legend": "Contribuciones globales"
+}

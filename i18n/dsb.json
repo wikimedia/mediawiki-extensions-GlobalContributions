@@ -1,0 +1,12 @@
+{
+    "@metadata": {
+        "authors": [
+            "Michawiki"
+        ]
+    },
+    "guc-desc": "Zmóžnja wužywarjam, se pśinoski wužywarja na wšych wikijach woglědaś",
+    "guc-form-user": "Wužywarske mě abo IP-adresa",
+    "guc-invalid-username": "Njepłaśiwe wužywarske mě abo njepłaśiwa IP-adresa",
+    "globalcontributions": "Globalne pśinoski",
+    "globalcontributions-legend": "Globalne pśinoski"
+}

@@ -1,0 +1,12 @@
+{
+    "@metadata": {
+        "authors": [
+            "Joseph"
+        ]
+    },
+    "guc-desc": "Kullanıcıların, bir kullanıcının tüm vikilerdeki katkılarını görüntülemesine izin verir",
+    "guc-form-user": "Kullanıcı adı veya IP adresi",
+    "guc-invalid-username": "Geçersiz kullanıcı adı veya IP adresi verildi",
+    "globalcontributions": "Küresel katkılar",
+    "globalcontributions-legend": "Küresel katkılar"
+}

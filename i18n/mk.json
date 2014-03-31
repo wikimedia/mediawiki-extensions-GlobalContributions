@@ -1,0 +1,12 @@
+{
+    "@metadata": {
+        "authors": [
+            "Bjankuloski06"
+        ]
+    },
+    "guc-desc": "Им овозможува на корисниците приказ на нечии придонеси на сите викија",
+    "guc-form-user": "Корисничко име или IP-адреса",
+    "guc-invalid-username": "Укажано е неважечко корисничко име или IP-адреса",
+    "globalcontributions": "Глобални придонеси",
+    "globalcontributions-legend": "Глобални придонеси"
+}

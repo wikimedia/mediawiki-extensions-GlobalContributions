@@ -1,0 +1,12 @@
+{
+    "@metadata": {
+        "authors": [
+            "Cedric31"
+        ]
+    },
+    "guc-desc": "Permet de veire las contribucions d’un utilizaire sus totes los wikis",
+    "guc-form-user": "Nom d’utilizaire o adreça IP",
+    "guc-invalid-username": "Nom d’utilizaire o adreça IP invalida",
+    "globalcontributions": "Contribucions globalas",
+    "globalcontributions-legend": "Contribucions globalas"
+}

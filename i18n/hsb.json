@@ -1,0 +1,12 @@
+{
+    "@metadata": {
+        "authors": [
+            "Michawiki"
+        ]
+    },
+    "guc-desc": "Zmóžnja wužiwarjam, sej přinoški wužiwarja na wšěch wikijach wobhladać",
+    "guc-form-user": "Wužiwarske mjeno abo IP-adresa",
+    "guc-invalid-username": "Njepłaćiwe wužiwarske mjeno abo njepłaćiwa IP-adresa",
+    "globalcontributions": "Globalne přinoški",
+    "globalcontributions-legend": "Globalne přinoški"
+}

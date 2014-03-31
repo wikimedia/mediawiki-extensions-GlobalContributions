@@ -1,0 +1,13 @@
+{
+    "@metadata": {
+        "authors": [
+            "Kunal Mehta",
+            "Shirayuki"
+        ]
+    },
+    "guc-desc": "{{desc|name=GlobalContributions|url=https://www.mediawiki.org/wiki/Extension:GlobalContributions}}",
+    "guc-form-user": "Label for field on form",
+    "guc-invalid-username": "Error message shown to user if the username they provided is invalid",
+    "globalcontributions": "{{doc-special|GlobalContributions}}",
+    "globalcontributions-legend": "Used as fieldset label in [[Special:GlobalContributions]]."
+}

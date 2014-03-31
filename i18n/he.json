@@ -1,0 +1,12 @@
+{
+    "@metadata": {
+        "authors": [
+            "Yona b"
+        ]
+    },
+    "guc-desc": "מאפשר למשתמשים לראות את תרומות המשתמש של כל הויקי האחרים",
+    "guc-form-user": "שם משתמש או כתובת IP",
+    "guc-invalid-username": "שם משתמש או כתובת IP שגויים",
+    "globalcontributions": "תרומות גלובליות",
+    "globalcontributions-legend": "תרומות גלובליות"
+}

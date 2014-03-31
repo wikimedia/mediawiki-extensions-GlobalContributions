@@ -29,7 +29,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'author' => 'Kunal Mehta',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:GlobalContributions',
 	'descriptionmsg' => 'guc-desc',
-	'version' => '0.1',
+	'version' => '0.2.0',
 );
 
 $wgAutoloadClasses['GlobalUserContribs'] = __DIR__ . '/GlobalContributions.body.php';
@@ -37,5 +37,6 @@ $wgAutoloadClasses['SpecialGlobalContributions'] = __DIR__ . '/SpecialGlobalCont
 
 $wgSpecialPages['GlobalContributions'] = 'SpecialGlobalContributions';
 $wgSpecialPageGroups['GlobalContributions'] = 'users';
+$wgMessagesDirs['GlobalContributions'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['GlobalContributions'] = __DIR__ . '/GlobalContributions.i18n.php';
 $wgExtensionMessagesFiles['GlobalContributionsAlias'] = __DIR__ . '/GlobalContributions.alias.php';

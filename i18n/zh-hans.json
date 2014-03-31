@@ -1,0 +1,12 @@
+{
+    "@metadata": {
+        "authors": [
+            "Liuxinyu970226"
+        ]
+    },
+    "guc-desc": "允许用户查阅某用户所有wiki的贡献",
+    "guc-form-user": "用户名或IP地址",
+    "guc-invalid-username": "提供了无效的用户名或IP地址",
+    "globalcontributions": "全域贡献",
+    "globalcontributions-legend": "全域贡献"
+}

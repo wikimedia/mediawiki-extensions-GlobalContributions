@@ -1,0 +1,11 @@
+{
+    "@metadata": {
+        "authors": [
+            "Siddhartha Ghai"
+        ]
+    },
+    "guc-form-user": "सदस्य नाम या आइ॰पी पता",
+    "guc-invalid-username": "दिया गया सदस्यनाम या आइ॰पी पता अमान्य है",
+    "globalcontributions": "वैश्विक योगदान",
+    "globalcontributions-legend": "वैश्विक योगदान"
+}

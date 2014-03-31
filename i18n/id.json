@@ -1,0 +1,12 @@
+{
+    "@metadata": {
+        "authors": [
+            "Aldnonymous"
+        ]
+    },
+    "guc-desc": "Memungkinkan pengguna untuk melihat kontribusi pengguna di semua proyek wiki",
+    "guc-form-user": "Nama pengguna atau alamat IP",
+    "guc-invalid-username": "Nama pengguna atau alamat IP yang disediakan tidak valid",
+    "globalcontributions": "Kontribusi global",
+    "globalcontributions-legend": "Kontribusi global"
+}

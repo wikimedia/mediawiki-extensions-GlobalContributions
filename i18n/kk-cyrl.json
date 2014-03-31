@@ -1,0 +1,11 @@
+{
+    "@metadata": {
+        "authors": [
+            "Arystanbek"
+        ]
+    },
+    "guc-form-user": "Қатысушы есімі немесе IP мекенжайы",
+    "guc-invalid-username": "Жарамсыз қатысушы есімі немесе IP мекенжайы көрсетілген",
+    "globalcontributions": "Ғаламдық үлесі",
+    "globalcontributions-legend": "Ғаламдық үлесі"
+}

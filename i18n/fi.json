@@ -1,0 +1,12 @@
+{
+    "@metadata": {
+        "authors": [
+            "Stryn"
+        ]
+    },
+    "guc-desc": "Käyttäjät voivat tarkastella käyttäjien muokkauksia kaikissa wikeissä",
+    "guc-form-user": "Käyttäjänimi tai IP-osoite",
+    "guc-invalid-username": "Virheellinen käyttäjänimi tai IP-osoite annettu",
+    "globalcontributions": "Järjestelmänlaajuiset muokkaukset",
+    "globalcontributions-legend": "Järjestelmänlaajuiset muokkaukset"
+}

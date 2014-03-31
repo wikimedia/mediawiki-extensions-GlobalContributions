@@ -1,0 +1,12 @@
+{
+    "@metadata": {
+        "authors": [
+            "John Reid"
+        ]
+    },
+    "guc-desc": "Allows uisers te view ae uiser's contributions across aw wikis",
+    "guc-form-user": "Uisername or IP address",
+    "guc-invalid-username": "Onvalit uisername or IP address gien",
+    "globalcontributions": "Global contributions",
+    "globalcontributions-legend": "Global contributions"
+}

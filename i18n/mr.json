@@ -1,0 +1,12 @@
+{
+    "@metadata": {
+        "authors": [
+            "V.narsikar"
+        ]
+    },
+    "guc-desc": "सदस्यांना, एखाद्या सदस्याचे सर्व विकिंवरील योगदान बघण्यास परवानगी देते",
+    "guc-form-user": "सदस्यनाव किंवा अंकपत्ता",
+    "guc-invalid-username": "अवैध सदस्यनाव किंवा अंकपत्ता दिल्या गेला",
+    "globalcontributions": "वैश्विक योगदान",
+    "globalcontributions-legend": "वैश्विक योगदान"
+}

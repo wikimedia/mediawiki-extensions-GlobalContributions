@@ -1,0 +1,12 @@
+{
+    "@metadata": {
+        "authors": [
+            "Armin1392"
+        ]
+    },
+    "guc-desc": "اجازه به کاربران برای مشاهدهٔ کمک‌های کاربران در سرتاسر همهٔ ویکی‌ها",
+    "guc-form-user": "نام کاربری یا آدرس آی‌پی",
+    "guc-invalid-username": "نام کاربری یا آدرس آی‌پی ارائه شدهٔ نامعتبر",
+    "globalcontributions": "کمک‌های جهانی",
+    "globalcontributions-legend": "کمک‌های جهانی"
+}
