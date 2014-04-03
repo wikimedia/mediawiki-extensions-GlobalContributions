@@ -39,6 +39,11 @@ $specialPageAliases['fa'] = array(
 	'GlobalContributions' => array( 'مشارکت‌های_سراسری' ),
 );
 
+/** Italian (italiano) */
+$specialPageAliases['it'] = array(
+	'GlobalContributions' => array( 'ContributiGlobali' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'GlobalContributions' => array( '全域贡献' ),
