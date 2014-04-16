@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Okras"
-        ]
-    },
-    "guc-desc": "Позволяет просматривать вклад участника во всех вики",
-    "guc-form-user": "Имя участника или IP-адрес",
-    "guc-invalid-username": "Предоставлено неверное имя участника или IP-адрес",
-    "globalcontributions": "Глобальный вклад",
-    "globalcontributions-legend": "Глобальный вклад"
+	"@metadata": {
+		"authors": [
+			"Okras"
+		]
+	},
+	"guc-desc": "Позволяет просматривать вклад участника во всех вики",
+	"guc-form-user": "Имя участника или IP-адрес",
+	"guc-invalid-username": "Предоставлено неверное имя участника или IP-адрес",
+	"globalcontributions": "Глобальный вклад",
+	"globalcontributions-legend": "Глобальный вклад"
 }

@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Priviet"
-        ]
-    },
-    "guc-desc": "모든 위키에서 사용자의 기여를 다른 사용자들에게 보이도록 허용",
-    "guc-form-user": "사용자 이름 또는 IP 주소",
-    "guc-invalid-username": "올바르지 않은 사용자 이름 또는 IP 주소가 입력되었습니다",
-    "globalcontributions": "전역 기여",
-    "globalcontributions-legend": "전역 기여"
+	"@metadata": {
+		"authors": [
+			"Priviet"
+		]
+	},
+	"guc-desc": "모든 위키에서 사용자의 기여를 다른 사용자들에게 보이도록 허용",
+	"guc-form-user": "사용자 이름 또는 IP 주소",
+	"guc-invalid-username": "올바르지 않은 사용자 이름 또는 IP 주소가 입력되었습니다",
+	"globalcontributions": "전역 기여",
+	"globalcontributions-legend": "전역 기여"
 }

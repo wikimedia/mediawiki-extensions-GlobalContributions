@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Abshirdheere"
-        ]
-    },
-    "guc-desc": "Waxa loo ogolaanayaa gudagaleyaasha in ay eegi karaan waxa uu ku qoray dhamaan wikiyada isticmaale kaste",
-    "guc-form-user": "Magaca gudagalaha ama ciwaanka IP-da internet-ka",
-    "guc-invalid-username": "Sax maaha magaca gudagalaha ama ciwaanka IP-da aad gelisay",
-    "globalcontributions": "Ku darsiga guud",
-    "globalcontributions-legend": "Ku darsiga guud"
+	"@metadata": {
+		"authors": [
+			"Abshirdheere"
+		]
+	},
+	"guc-desc": "Waxa loo ogolaanayaa gudagaleyaasha in ay eegi karaan waxa uu ku qoray dhamaan wikiyada isticmaale kaste",
+	"guc-form-user": "Magaca gudagalaha ama ciwaanka IP-da internet-ka",
+	"guc-invalid-username": "Sax maaha magaca gudagalaha ama ciwaanka IP-da aad gelisay",
+	"globalcontributions": "Ku darsiga guud",
+	"globalcontributions-legend": "Ku darsiga guud"
 }

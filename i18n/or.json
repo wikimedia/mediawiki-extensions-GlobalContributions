@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Jnanaranjan Sahu"
-        ]
-    },
-    "guc-desc": "ବ୍ୟବହାରକାରୀମାନଙ୍କୁ ସମସ୍ତ ଉଇକିରେ ହୋଇଥିବା ବଦଳଗୁଡିକୁ ଦେଖାଇଥାଏ",
-    "guc-form-user": "ବ୍ୟବହାରକାର ନାମ କିମ୍ବା ଆଇପି ଠିକଣା",
-    "guc-invalid-username": "ବୈଧ ନଥିବା ବ୍ୟବହାରକାରୀନାମ କିମ୍ବା ଆଇପି ଠିକଣା ଦେଇଛନ୍ତି",
-    "globalcontributions": "ଜାଗତିକ ଅବଦାନ",
-    "globalcontributions-legend": "ଜାଗତିକ ଅବଦାନଗୁଡିକ"
+	"@metadata": {
+		"authors": [
+			"Jnanaranjan Sahu"
+		]
+	},
+	"guc-desc": "ବ୍ୟବହାରକାରୀମାନଙ୍କୁ ସମସ୍ତ ଉଇକିରେ ହୋଇଥିବା ବଦଳଗୁଡିକୁ ଦେଖାଇଥାଏ",
+	"guc-form-user": "ବ୍ୟବହାରକାର ନାମ କିମ୍ବା ଆଇପି ଠିକଣା",
+	"guc-invalid-username": "ବୈଧ ନଥିବା ବ୍ୟବହାରକାରୀନାମ କିମ୍ବା ଆଇପି ଠିକଣା ଦେଇଛନ୍ତି",
+	"globalcontributions": "ଜାଗତିକ ଅବଦାନ",
+	"globalcontributions-legend": "ଜାଗତିକ ଅବଦାନଗୁଡିକ"
 }

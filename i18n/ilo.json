@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Lam-ang"
-        ]
-    },
-    "guc-desc": "Mangpalubos kadagiti agar-aramat a mangkita kadagiti kontribusion ti agar-aramat kadagiti amin a wiki",
-    "guc-form-user": "Nagan ti agar-aramat wenno IP a pagtaengan",
-    "guc-invalid-username": "Imbalido ti naited a nagan ti agar-aramat wenno IP a pagtaengan",
-    "globalcontributions": "Dagiti global a kontribusion",
-    "globalcontributions-legend": "Dagiti global a kontribusion"
+	"@metadata": {
+		"authors": [
+			"Lam-ang"
+		]
+	},
+	"guc-desc": "Mangpalubos kadagiti agar-aramat a mangkita kadagiti kontribusion ti agar-aramat kadagiti amin a wiki",
+	"guc-form-user": "Nagan ti agar-aramat wenno IP a pagtaengan",
+	"guc-invalid-username": "Imbalido ti naited a nagan ti agar-aramat wenno IP a pagtaengan",
+	"globalcontributions": "Dagiti global a kontribusion",
+	"globalcontributions-legend": "Dagiti global a kontribusion"
 }

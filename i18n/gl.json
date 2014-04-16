@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Toliño"
-        ]
-    },
-    "guc-desc": "Permite aos usuarios ver as contribucións dun usuario en todos os wikis",
-    "guc-form-user": "Nome de usuario ou enderezo IP",
-    "guc-invalid-username": "O nome de usuario ou o enderezo IP achegado non é válido",
-    "globalcontributions": "Contribucións globais",
-    "globalcontributions-legend": "Contribucións globais"
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"guc-desc": "Permite aos usuarios ver as contribucións dun usuario en todos os wikis",
+	"guc-form-user": "Nome de usuario ou enderezo IP",
+	"guc-invalid-username": "O nome de usuario ou o enderezo IP achegado non é válido",
+	"globalcontributions": "Contribucións globais",
+	"globalcontributions-legend": "Contribucións globais"
 }

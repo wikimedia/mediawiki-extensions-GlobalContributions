@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Imperadeiro98"
-        ]
-    },
-    "guc-desc": "Permite aos utilizadores verem as contribuições de outro utilizador em todos os wikis",
-    "guc-form-user": "Nome de Utilizador ou Endereço IP",
-    "globalcontributions": "Contribuições globais",
-    "globalcontributions-legend": "Contribuições globais"
+	"@metadata": {
+		"authors": [
+			"Imperadeiro98"
+		]
+	},
+	"guc-desc": "Permite aos utilizadores verem as contribuições de outro utilizador em todos os wikis",
+	"guc-form-user": "Nome de Utilizador ou Endereço IP",
+	"globalcontributions": "Contribuições globais",
+	"globalcontributions-legend": "Contribuições globais"
 }

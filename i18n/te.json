@@ -1,13 +1,13 @@
 {
-    "@metadata": {
-        "authors": [
-            "Chaduvari",
-            "Veeven"
-        ]
-    },
-    "guc-desc": "ఎవరైనా వాడుకరి వికీలన్నిటిలోనూ చేసిన మార్పుచేర్పులను వాడుకరులకు చూపిస్తుంది",
-    "guc-form-user": "వాడుకరి పేరు లేదా ఐపీ చిరునామా",
-    "guc-invalid-username": "చెల్లని వాడుకరి పేరు లేదా ఐపీ చిరునామా ఇచ్చారు",
-    "globalcontributions": "సార్వత్రిక మార్పుచేర్పులు",
-    "globalcontributions-legend": "సార్వత్రిక మార్పుచేర్పులు"
+	"@metadata": {
+		"authors": [
+			"Chaduvari",
+			"Veeven"
+		]
+	},
+	"guc-desc": "ఎవరైనా వాడుకరి వికీలన్నిటిలోనూ చేసిన మార్పుచేర్పులను వాడుకరులకు చూపిస్తుంది",
+	"guc-form-user": "వాడుకరి పేరు లేదా ఐపీ చిరునామా",
+	"guc-invalid-username": "చెల్లని వాడుకరి పేరు లేదా ఐపీ చిరునామా ఇచ్చారు",
+	"globalcontributions": "సార్వత్రిక మార్పుచేర్పులు",
+	"globalcontributions-legend": "సార్వత్రిక మార్పుచేర్పులు"
 }

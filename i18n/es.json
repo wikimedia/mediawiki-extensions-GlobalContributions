@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Fitoschido"
-        ]
-    },
-    "guc-desc": "Permite visualizar las contribuciones de un usuario en todos los wikis",
-    "guc-form-user": "Nombre de usuario o dirección IP",
-    "guc-invalid-username": "El nombre de usuario o IP proporcionado no es válido",
-    "globalcontributions": "Contribuciones globales",
-    "globalcontributions-legend": "Contribuciones globales"
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"guc-desc": "Permite visualizar las contribuciones de un usuario en todos los wikis",
+	"guc-form-user": "Nombre de usuario o dirección IP",
+	"guc-invalid-username": "El nombre de usuario o IP proporcionado no es válido",
+	"globalcontributions": "Contribuciones globales",
+	"globalcontributions-legend": "Contribuciones globales"
 }

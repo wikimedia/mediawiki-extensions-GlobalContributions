@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Robby"
-        ]
-    },
-    "guc-desc": "Erlaabt et Benotzer engem Benotzer seng Kontributiounen an alle Wikien ze gesinn",
-    "guc-form-user": "Benotzernumm oder IP-Adress",
-    "guc-invalid-username": "Net valabele Benotzernumm oder IP-Adress uginn",
-    "globalcontributions": "Global Kontributiounen",
-    "globalcontributions-legend": "Global Kontributiounen"
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"guc-desc": "Erlaabt et Benotzer engem Benotzer seng Kontributiounen an alle Wikien ze gesinn",
+	"guc-form-user": "Benotzernumm oder IP-Adress",
+	"guc-invalid-username": "Net valabele Benotzernumm oder IP-Adress uginn",
+	"globalcontributions": "Global Kontributiounen",
+	"globalcontributions-legend": "Global Kontributiounen"
 }

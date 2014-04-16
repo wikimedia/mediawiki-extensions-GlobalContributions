@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Chrumps"
-        ]
-    },
-    "guc-desc": "Umożliwia przeglądanie wkład użytkownika we wszystkich wiki",
-    "guc-form-user": "Nazwa użytkownika lub adres IP",
-    "guc-invalid-username": "Podano nieprawidłową nazwę użytkownika lub nieprawidłowy adres IP.",
-    "globalcontributions": "Globalny wkład",
-    "globalcontributions-legend": "Globalny wkład"
+	"@metadata": {
+		"authors": [
+			"Chrumps"
+		]
+	},
+	"guc-desc": "Umożliwia przeglądanie wkład użytkownika we wszystkich wiki",
+	"guc-form-user": "Nazwa użytkownika lub adres IP",
+	"guc-invalid-username": "Podano nieprawidłową nazwę użytkownika lub nieprawidłowy adres IP.",
+	"globalcontributions": "Globalny wkład",
+	"globalcontributions-legend": "Globalny wkład"
 }

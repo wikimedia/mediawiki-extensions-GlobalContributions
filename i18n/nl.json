@@ -1,13 +1,13 @@
 {
-    "@metadata": {
-        "authors": [
-            "SPQRobin",
-            "Southparkfan"
-        ]
-    },
-    "guc-desc": "Geeft gebruikers de mogelijkheid om de bijdragen van een gebruiker op alle wiki's te bekijken.",
-    "guc-form-user": "Gebruikersnaam of IP-adres",
-    "guc-invalid-username": "Ongeldige gebruikersnaam of IP-adres opgegeven",
-    "globalcontributions": "Globale bijdragen",
-    "globalcontributions-legend": "Globale bijdragen"
+	"@metadata": {
+		"authors": [
+			"SPQRobin",
+			"Southparkfan"
+		]
+	},
+	"guc-desc": "Geeft gebruikers de mogelijkheid om de bijdragen van een gebruiker op alle wiki's te bekijken.",
+	"guc-form-user": "Gebruikersnaam of IP-adres",
+	"guc-invalid-username": "Ongeldige gebruikersnaam of IP-adres opgegeven",
+	"globalcontributions": "Globale bijdragen",
+	"globalcontributions-legend": "Globale bijdragen"
 }
