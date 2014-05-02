@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Lokal Profil"
+			"Lokal Profil",
+			"Jopparn"
 		]
 	},
-	"guc-desc": "Gör det möjligt att se en användares bidrag över alla wikis",
+	"guc-desc": "Gör det möjligt att se en användares bidrag på alla wikis",
 	"guc-form-user": "Användarnamn eller IP-adress",
 	"guc-invalid-username": "Ogiltigt användarnamn eller IP-adress angivet",
 	"globalcontributions": "Globala bidrag",
