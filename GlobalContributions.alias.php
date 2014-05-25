@@ -44,6 +44,11 @@ $specialPageAliases['it'] = array(
 	'GlobalContributions' => array( 'ContributiGlobali' ),
 );
 
+/** Malayalam (മലയാളം) */
+$specialPageAliases['ml'] = array(
+	'GlobalContributions' => array( 'ആഗോളസംഭാവനകൾ' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'GlobalContributions' => array( '全域贡献' ),
