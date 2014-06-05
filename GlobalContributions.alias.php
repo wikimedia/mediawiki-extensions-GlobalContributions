@@ -49,6 +49,11 @@ $specialPageAliases['it'] = array(
 	'GlobalContributions' => array( 'ContributiGlobali' ),
 );
 
+/** Korean (한국어) */
+$specialPageAliases['ko'] = array(
+	'GlobalContributions' => array( '전역기여' ),
+);
+
 /** Malayalam (മലയാളം) */
 $specialPageAliases['ml'] = array(
 	'GlobalContributions' => array( 'ആഗോളസംഭാവനകൾ' ),
