@@ -44,6 +44,11 @@ $specialPageAliases['he'] = array(
 	'GlobalContributions' => array( 'תרומות_גלובליות' ),
 );
 
+/** Upper Sorbian (hornjoserbsce) */
+$specialPageAliases['hsb'] = array(
+	'GlobalContributions' => array( 'Globalne_přinoški' ),
+);
+
 /** Italian (italiano) */
 $specialPageAliases['it'] = array(
 	'GlobalContributions' => array( 'ContributiGlobali' ),
@@ -57,6 +62,11 @@ $specialPageAliases['ko'] = array(
 /** Malayalam (മലയാളം) */
 $specialPageAliases['ml'] = array(
 	'GlobalContributions' => array( 'ആഗോളസംഭാവനകൾ' ),
+);
+
+/** Vietnamese (Tiếng Việt) */
+$specialPageAliases['vi'] = array(
+	'GlobalContributions' => array( 'Đóng_góp_toàn_cục' ),
 );
 
 /** Simplified Chinese (中文（简体）‎) */
