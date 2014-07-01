@@ -64,6 +64,11 @@ $specialPageAliases['ml'] = array(
 	'GlobalContributions' => array( 'ആഗോളസംഭാവനകൾ' ),
 );
 
+/** Malay (Bahasa Melayu) */
+$specialPageAliases['ms'] = array(
+	'GlobalContributions' => array( 'Sumbangan_global' ),
+);
+
 /** Polish (polski) */
 $specialPageAliases['pl'] = array(
 	'GlobalContributions' => array( 'Globalny_wkład' ),
