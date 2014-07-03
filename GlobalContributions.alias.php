@@ -59,6 +59,11 @@ $specialPageAliases['ko'] = array(
 	'GlobalContributions' => array( '전역기여' ),
 );
 
+/** Macedonian (македонски) */
+$specialPageAliases['mk'] = array(
+	'GlobalContributions' => array( 'ГлобалниПридонеси' ),
+);
+
 /** Malayalam (മലയാളം) */
 $specialPageAliases['ml'] = array(
 	'GlobalContributions' => array( 'ആഗോളസംഭാവനകൾ' ),
