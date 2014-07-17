@@ -79,6 +79,11 @@ $specialPageAliases['pl'] = array(
 	'GlobalContributions' => array( 'Globalny_wkład' ),
 );
 
+/** Swedish (svenska) */
+$specialPageAliases['sv'] = array(
+	'GlobalContributions' => array( 'Globala_bidrag' ),
+);
+
 /** Vietnamese (Tiếng Việt) */
 $specialPageAliases['vi'] = array(
 	'GlobalContributions' => array( 'Đóng_góp_toàn_cục' ),
