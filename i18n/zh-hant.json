@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"LNDDYL"
 		]
 	},
-	"guc-desc": "允許用戶查看某用戶所有wiki貢獻",
+	"guc-desc": "允許使用者檢視某使用者所有wiki貢獻",
 	"guc-form-user": "用戶名或IP位址",
 	"guc-invalid-username": "提供的用戶名或IP位址無效",
 	"globalcontributions": "全域貢獻",
