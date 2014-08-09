@@ -79,6 +79,11 @@ $specialPageAliases['pl'] = array(
 	'GlobalContributions' => array( 'Globalny_wkład' ),
 );
 
+/** Portuguese (português) */
+$specialPageAliases['pt'] = array(
+	'GlobalContributions' => array( 'Contribuições_globais' ),
+);
+
 /** Swedish (svenska) */
 $specialPageAliases['sv'] = array(
 	'GlobalContributions' => array( 'Globala_bidrag' ),
