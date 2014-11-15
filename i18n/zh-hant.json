@@ -7,7 +7,7 @@
 		]
 	},
 	"guc-desc": "允許使用者檢視某使用者所有wiki貢獻",
-	"guc-form-user": "用戶名或IP位址",
+	"guc-form-user": "使用者名稱或IP位址",
 	"guc-invalid-username": "提供的用戶名或IP位址無效",
 	"globalcontributions": "全域貢獻",
 	"globalcontributions-legend": "全域貢獻"
