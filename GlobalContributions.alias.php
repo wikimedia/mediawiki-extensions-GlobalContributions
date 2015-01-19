@@ -74,6 +74,11 @@ $specialPageAliases['ms'] = array(
 	'GlobalContributions' => array( 'Sumbangan_global' ),
 );
 
+/** Dutch (Nederlands) */
+$specialPageAliases['nl'] = array(
+	'GlobalContributions' => array( 'GlobaleBijdragen' ),
+);
+
 /** Polish (polski) */
 $specialPageAliases['pl'] = array(
 	'GlobalContributions' => array( 'Globalny_wkład' ),
