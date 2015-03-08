@@ -59,6 +59,11 @@ $specialPageAliases['ko'] = array(
 	'GlobalContributions' => array( '전역기여' ),
 );
 
+/** Luxembourgish (Lëtzebuergesch) */
+$specialPageAliases['lb'] = array(
+	'GlobalContributions' => array( 'Global_Kontributiounen' ),
+);
+
 /** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'GlobalContributions' => array( 'ГлобалниПридонеси' ),
