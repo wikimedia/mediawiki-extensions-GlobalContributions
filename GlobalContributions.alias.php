@@ -99,6 +99,11 @@ $specialPageAliases['sv'] = array(
 	'GlobalContributions' => array( 'Globala_bidrag' ),
 );
 
+/** Ukrainian (українська) */
+$specialPageAliases['uk'] = array(
+	'GlobalContributions' => array( 'Глобальний_внесок' ),
+);
+
 /** Vietnamese (Tiếng Việt) */
 $specialPageAliases['vi'] = array(
 	'GlobalContributions' => array( 'Đóng_góp_toàn_cục' ),
