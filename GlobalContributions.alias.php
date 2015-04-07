@@ -24,6 +24,11 @@ $specialPageAliases['arz'] = array(
 	'GlobalContributions' => array( 'مساهمات_عامه' ),
 );
 
+/** Western Balochi (بلوچی رخشانی) */
+$specialPageAliases['bgn'] = array(
+	'GlobalContributions' => array( 'سراسرین_شراکت_ئان' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'GlobalContributions' => array( 'Globale_Beiträge' ),
