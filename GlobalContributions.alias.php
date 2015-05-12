@@ -19,7 +19,7 @@ $specialPageAliases['ar'] = array(
 	'GlobalContributions' => array( 'مساهمات_عامة' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $specialPageAliases['arz'] = array(
 	'GlobalContributions' => array( 'مساهمات_عامه' ),
 );
