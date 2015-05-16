@@ -36,7 +36,6 @@ $wgAutoloadClasses['GlobalUserContribs'] = __DIR__ . '/GlobalContributions.body.
 $wgAutoloadClasses['SpecialGlobalContributions'] = __DIR__ . '/SpecialGlobalContributions.php';
 
 $wgSpecialPages['GlobalContributions'] = 'SpecialGlobalContributions';
-$wgSpecialPageGroups['GlobalContributions'] = 'users';
 $wgMessagesDirs['GlobalContributions'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['GlobalContributions'] = __DIR__ . '/GlobalContributions.i18n.php';
 $wgExtensionMessagesFiles['GlobalContributionsAlias'] = __DIR__ . '/GlobalContributions.alias.php';

@@ -55,5 +55,7 @@ class SpecialGlobalContributions extends FormSpecialPage {
 		return true;
 	}
 
-
+	protected function getGroupName() {
+		return 'users';
+	}
 }
