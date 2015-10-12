@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Kunal Mehta"
-        ]
-    },
-    "guc-desc": "Allows users to view a user's contributions across all wikis",
-    "guc-form-user": "Username or IP address",
-    "guc-invalid-username": "Invalid username or IP address provided",
-    "globalcontributions": "Global contributions",
-    "globalcontributions-legend": "Global contributions"
+	"@metadata": {
+		"authors": [
+			"Kunal Mehta"
+		]
+	},
+	"guc-desc": "Allows users to view a user's contributions across all wikis",
+	"guc-form-user": "Username or IP address",
+	"guc-invalid-username": "Invalid username or IP address provided",
+	"globalcontributions": "Global contributions",
+	"globalcontributions-legend": "Global contributions"
 }
