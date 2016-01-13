@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vodnokon4e"
+		]
+	},
+	"guc-desc": "Позволява на потребителите да прегледат приносите на друг потребител във всички уикита",
+	"guc-form-user": "Потребителско име или IP адрес",
+	"guc-invalid-username": "Невалидно потребителско име или IP адрес",
+	"globalcontributions": "Глобални приноси",
+	"globalcontributions-legend": "Глобални приноси"
+}
