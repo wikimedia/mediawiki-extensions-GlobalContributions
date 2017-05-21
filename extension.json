@@ -1,0 +1,33 @@
+{
+	"name": "GlobalContributions",
+	"version": "0.2.1",
+	"author": [
+		"Kunal Mehta",
+		"Adam Carter",
+		"George Barnick",
+		"Jack Phoenix"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:GlobalContributions",
+	"descriptionmsg": "guc-desc",
+	"license-name": "GPL-2.0+",
+	"type": "specialpage",
+	"config": {
+		"GUCWikis": []
+	},
+	"AutoloadClasses": {
+		"GlobalUserContribs": "GlobalContributions.body.php",
+		"SpecialGlobalContributions": "SpecialGlobalContributions.php"
+	},
+	"MessagesDirs": {
+		"GlobalContributions": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"GlobalContributionsAlias": "GlobalContributions.alias.php"
+	},
+	"SpecialPages": {
+		"GlobalContributions": "SpecialGlobalContributions"
+	},
+	"manifest_version": 1
+}
