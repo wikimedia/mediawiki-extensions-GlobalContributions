@@ -39,6 +39,11 @@ $specialPageAliases['diq'] = array(
 	'GlobalContributions' => array( 'DekerdışéGlobali' ),
 );
 
+/** Spanish (Español) */
+$specialPageAliases['es'] = array(
+	'GlobalContributions' => array( 'Contribuciones_globales' ),
+);
+
 /** Persian (فارسی) */
 $specialPageAliases['fa'] = array(
 	'GlobalContributions' => array( 'مشارکت‌های_سراسری' ),
