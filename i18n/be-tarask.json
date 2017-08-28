@@ -7,5 +7,6 @@
 	"guc-desc": "Дазваляе праглядаць унёсак удзельніка ва ўсе вікі",
 	"guc-form-user": "Імя ўдзельніка ці IP-адрас",
 	"guc-invalid-username": "Пададзенае няслушнае імя ўдзельніка ці IP-адрас",
-	"globalcontributions": "Глябальны ўнёсак"
+	"globalcontributions": "Глябальны ўнёсак",
+	"globalcontributions-legend": "Глябальны ўнёсак"
 }
