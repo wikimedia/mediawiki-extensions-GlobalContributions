@@ -1,8 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Felipe L. Ewald"
+			"Felipe L. Ewald",
+			"Eduardo Addad de Oliveira"
 		]
 	},
-	"guc-form-user": "Nome de usuário ou endereço IP"
+	"guc-desc": "Permite que os usuários vejam as contribuições de um usuário em todas as wikis",
+	"guc-form-user": "Nome de usuário ou endereço IP",
+	"guc-invalid-username": "Nome de usuário ou endereço IP inválido",
+	"globalcontributions": "Contribuições globais",
+	"globalcontributions-legend": "Contribuições globais"
 }
