@@ -44,7 +44,7 @@ class GlobalUserContribs extends ContextSource {
 
 	/**
 	 * Get's a user's block info
-	 * @param DatabaseBase $db
+	 * @param \Wikimedia\Rdbms\IDatabase $db
 	 * @return stdClass|bool false if not blocked
 	 */
 	protected function getBlockInfo( $db ) {
