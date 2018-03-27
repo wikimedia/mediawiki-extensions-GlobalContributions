@@ -20,6 +20,7 @@ class SpecialGlobalContributions extends FormSpecialPage {
 	protected function getFormFields() {
 		return array(
 			'user' => array(
+				'section' => 'legend',
 				'type' => 'text',
 				'name' => 'user',
 				'default' => $this->par,
@@ -57,5 +58,9 @@ class SpecialGlobalContributions extends FormSpecialPage {
 
 	protected function getGroupName() {
 		return 'users';
+	}
+
+	protected function getDisplayFormat() {
+		return 'ooui';
 	}
 }
