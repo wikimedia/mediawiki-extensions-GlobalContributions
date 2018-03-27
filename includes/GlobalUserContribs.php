@@ -148,10 +148,14 @@ class GlobalUserContribs extends ContextSource {
 	 * to use the same script path everywhere
 	 * @param string $wiki
 	 * @param string $type
-	 * @return string
+	 * @return string|null
 	 */
 	protected function getForeignScript( $wiki, $type = 'index' ) {
-		return WikiMap::getWiki( $wiki )->getCanonicalServer() . wfScript( $type );
+		$wikiRef = WikiMap::getWiki( $wiki );
+		if ( !$wikiRef ) {
+			return null;
+		}
+		return $wikiRef->getCanonicalServer() . wfScript( $type );
 	}
 
 	/**
@@ -161,9 +165,13 @@ class GlobalUserContribs extends ContextSource {
 	 * @return string HTML
 	 */
 	protected function formatRow( $wiki, $row ) {
+		$index = $this->getForeignScript( $wiki );
+		if ( !$index ) {
+			return '';
+		}
+
 		$html = Html::openElement( 'li', [ 'class' => 'mw-guc-changes-item plainlinks' ] );
 		$lang = $this->getLanguage();
-		$index = $this->getForeignScript( $wiki );
 		$sep = ' <span class="mw-changeslist-separator">. .</span> ';
 
 		$ts = $lang->userTimeAndDate( $row->rev_timestamp, $this->getUser() );
@@ -222,8 +230,12 @@ class GlobalUserContribs extends ContextSource {
 	}
 
 	protected function formatWiki( $wiki, $data ) {
-		$hostname = htmlspecialchars( WikiMap::getWiki( $wiki )->getDisplayName() );
-		$html = "<h2 class=\"mw-guc-header\">$hostname</h2>";
+		$wikiRef = WikiMap::getWiki( $wiki );
+		if ( !$wikiRef ) {
+			return '';
+		}
+
+		$html = Html::element( 'h2', [ 'class' => 'mw-guc-header' ], $wikiRef->getDisplayName() );
 		$html .= Html::openElement( 'ul', [ 'class' => 'mw-guc-changes-list' ] );
 		foreach ( $data['revisions'] as $row ) {
 			$html .= $this->formatRow( $wiki, $row );
@@ -305,16 +317,16 @@ class GlobalUserContribs extends ContextSource {
 		];
 
 		$api = $this->getForeignScript( $wiki, 'api' );
-		$url = wfAppendQuery( $api, $params );
-		$req = MWHttpRequest::factory( $url );
-		$req->execute();
-		$json = $req->getContent();
-		$decoded = FormatJson::decode( $json, true );
-		// Store everything we've got.
-		$map = array_map( function ( $val ) {
-			return $val['*'];
-		}, $decoded['query']['namespaces'] );
-		$this->namespaces[$wiki] = array_merge( $this->namespaces[$wiki], $map );
+		if ( $api ) {
+			$url = wfAppendQuery( $api, $params );
+			$req = MWHttpRequest::factory( $url );
+			$req->execute();
+			$json = $req->getContent();
+			$decoded = FormatJson::decode( $json, true );
+			// Store everything we've got.
+			$map = array_column( $decoded['query']['namespaces'], '*' );
+			$this->namespaces[$wiki] = array_merge( $this->namespaces[$wiki], $map );
+		}
 		if ( isset( $this->namespaces[$wiki][$nsid] ) ) {
 			return $this->namespaces[$wiki][$nsid];
 		} else {
