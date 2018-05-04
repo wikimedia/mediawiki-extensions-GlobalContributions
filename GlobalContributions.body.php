@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+
 class GlobalUserContribs extends ContextSource {
 	/** @var User $user to fetch contributions for */
 	protected $user;
@@ -74,7 +76,8 @@ class GlobalUserContribs extends ContextSource {
 	 * @return array|bool false if user doesn't exist or is hidden
 	 */
 	protected function loadLocalData( $wiki ) {
-		$lb = wfGetLB( $wiki );
+		$lbFactory = MediaWikiServices::getInstance()->getDBLoadBalancerFactory();
+		$lb = $lbFactory->getMainLB( $wiki );
 		$db = $lb->getConnection( DB_SLAVE, array(), $wiki );
 		$data = array( 'revisions' => array(), 'block' => array() );
 
