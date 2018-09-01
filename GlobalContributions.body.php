@@ -223,7 +223,7 @@ class GlobalUserContribs extends ContextSource {
 	}
 
 	protected function formatWiki( $wiki, $data ) {
-		$hostname = WikiMap::getWiki( $wiki )->getHostname();
+		$hostname = htmlspecialchars( WikiMap::getWiki( $wiki )->getDisplayName() );
 		$html = "<h2 class=\"mw-guc-header\">$hostname</h2>";
 		$html .= Html::openElement( 'ul', array( 'class' => 'mw-guc-changes-list' ) );
 		foreach ( $data['revisions'] as $row ) {
