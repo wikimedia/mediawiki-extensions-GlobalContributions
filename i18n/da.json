@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saederup92"
+		]
+	},
+	"guc-desc": "Lader brugere se en brugers bidrag på tværs af alle wikier",
+	"guc-form-user": "Brugernavn eller IP-adresse",
+	"guc-invalid-username": "Ugyldigt brugernavn eller IP-adresse opgivet",
+	"globalcontributions": "Globale bidrag",
+	"globalcontributions-legend": "Globale bidrag"
+}
