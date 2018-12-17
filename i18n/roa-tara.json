@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"guc-desc": "Permette a le utinde de 'ndrucà le condrebbute de 'n'utende sus a tutte le uicchi",
+	"guc-form-user": "Nome de l'utende o indirizze IP",
+	"guc-invalid-username": "Nome de l'utende o indirizze IP date sò invalide",
+	"globalcontributions": "Condrebbute globbale",
+	"globalcontributions-legend": "Condrebbute globbale"
+}
