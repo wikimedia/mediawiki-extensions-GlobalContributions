@@ -212,7 +212,7 @@ class GlobalUserContribs extends ContextSource {
 		if ( $row->rev_comment ) {
 			$html .= '<span class="comment">'
 				. $this->msg( 'parentheses' )
-					->rawParams( htmlspecialchars( $row->rev_comment ) )
+					->plaintextParams( $row->rev_comment )
 					->escaped()
 				. '</span>';
 		}
