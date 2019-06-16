@@ -78,7 +78,7 @@ class GlobalUserContribs extends ContextSource {
 	protected function loadLocalData( $wiki ) {
 		$lbFactory = MediaWikiServices::getInstance()->getDBLoadBalancerFactory();
 		$lb = $lbFactory->getMainLB( $wiki );
-		$db = $lb->getConnection( DB_SLAVE, array(), $wiki );
+		$db = $lb->getConnection( DB_REPLICA, array(), $wiki );
 		$data = array( 'revisions' => array(), 'block' => array() );
 
 		$conds = array(
