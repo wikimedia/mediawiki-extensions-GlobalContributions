@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"guc-desc": "Omogućuje korisnicima prikaz nečijih doprinosa na svim wikijima",
+	"guc-form-user": "Korisničko ime ili IP adresa",
+	"guc-invalid-username": "Neispravno korisničko ime ili IP adresa",
+	"globalcontributions": "Globalni doprinosi",
+	"globalcontributions-legend": "Globalni doprinosi"
+}
