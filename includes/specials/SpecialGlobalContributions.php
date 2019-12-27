@@ -18,15 +18,15 @@ class SpecialGlobalContributions extends FormSpecialPage {
 	}
 
 	protected function getFormFields() {
-		return array(
-			'user' => array(
+		return [
+			'user' => [
 				'section' => 'legend',
 				'type' => 'text',
 				'name' => 'user',
 				'default' => $this->par,
 				'label-message' => 'guc-form-user',
-			),
-		);
+			],
+		];
 	}
 
 	public function onSubmit( array $data ) {

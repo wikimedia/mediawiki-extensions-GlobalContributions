@@ -18,8 +18,8 @@
 		"GUCWikis": []
 	},
 	"AutoloadClasses": {
-		"GlobalUserContribs": "GlobalContributions.body.php",
-		"SpecialGlobalContributions": "SpecialGlobalContributions.php"
+		"GlobalUserContribs": "includes/GlobalUserContribs.php",
+		"SpecialGlobalContributions": "includes/specials/SpecialGlobalContributions.php"
 	},
 	"MessagesDirs": {
 		"GlobalContributions": [

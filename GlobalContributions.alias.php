@@ -6,124 +6,124 @@
  * @ingroup Extensions
  */
 
-$specialPageAliases = array();
+$specialPageAliases = [];
 
 /** English (English) */
-$specialPageAliases['en'] = array(
-	'GlobalContributions' => array( 'GlobalContributions' ),
-);
+$specialPageAliases['en'] = [
+	'GlobalContributions' => [ 'GlobalContributions' ],
+];
 
 /** Arabic (العربية) */
-$specialPageAliases['ar'] = array(
-	'GlobalContributions' => array( 'مساهمات_عامة' ),
-);
+$specialPageAliases['ar'] = [
+	'GlobalContributions' => [ 'مساهمات_عامة' ],
+];
 
 /** Egyptian Arabic (مصرى) */
-$specialPageAliases['arz'] = array(
-	'GlobalContributions' => array( 'مساهمات_عامه' ),
-);
+$specialPageAliases['arz'] = [
+	'GlobalContributions' => [ 'مساهمات_عامه' ],
+];
 
 /** Western Balochi (بلوچی رخشانی) */
-$specialPageAliases['bgn'] = array(
-	'GlobalContributions' => array( 'سراسرین_شراکت_ئان' ),
-);
+$specialPageAliases['bgn'] = [
+	'GlobalContributions' => [ 'سراسرین_شراکت_ئان' ],
+];
 
 /** German (Deutsch) */
-$specialPageAliases['de'] = array(
-	'GlobalContributions' => array( 'Globale_Beiträge' ),
-);
+$specialPageAliases['de'] = [
+	'GlobalContributions' => [ 'Globale_Beiträge' ],
+];
 
 /** Zazaki (Zazaki) */
-$specialPageAliases['diq'] = array(
-	'GlobalContributions' => array( 'DekerdışéGlobali' ),
-);
+$specialPageAliases['diq'] = [
+	'GlobalContributions' => [ 'DekerdışéGlobali' ],
+];
 
 /** Spanish (Español) */
-$specialPageAliases['es'] = array(
-	'GlobalContributions' => array( 'Contribuciones_globales' ),
-);
+$specialPageAliases['es'] = [
+	'GlobalContributions' => [ 'Contribuciones_globales' ],
+];
 
 /** Persian (فارسی) */
-$specialPageAliases['fa'] = array(
-	'GlobalContributions' => array( 'مشارکت‌های_سراسری' ),
-);
+$specialPageAliases['fa'] = [
+	'GlobalContributions' => [ 'مشارکت‌های_سراسری' ],
+];
 
 /** Hebrew (עברית) */
-$specialPageAliases['he'] = array(
-	'GlobalContributions' => array( 'תרומות_גלובליות' ),
-);
+$specialPageAliases['he'] = [
+	'GlobalContributions' => [ 'תרומות_גלובליות' ],
+];
 
 /** Upper Sorbian (hornjoserbsce) */
-$specialPageAliases['hsb'] = array(
-	'GlobalContributions' => array( 'Globalne_přinoški' ),
-);
+$specialPageAliases['hsb'] = [
+	'GlobalContributions' => [ 'Globalne_přinoški' ],
+];
 
 /** Italian (italiano) */
-$specialPageAliases['it'] = array(
-	'GlobalContributions' => array( 'ContributiGlobali' ),
-);
+$specialPageAliases['it'] = [
+	'GlobalContributions' => [ 'ContributiGlobali' ],
+];
 
 /** Korean (한국어) */
-$specialPageAliases['ko'] = array(
-	'GlobalContributions' => array( '전역기여' ),
-);
+$specialPageAliases['ko'] = [
+	'GlobalContributions' => [ '전역기여' ],
+];
 
 /** Luxembourgish (Lëtzebuergesch) */
-$specialPageAliases['lb'] = array(
-	'GlobalContributions' => array( 'Global_Kontributiounen' ),
-);
+$specialPageAliases['lb'] = [
+	'GlobalContributions' => [ 'Global_Kontributiounen' ],
+];
 
 /** Macedonian (македонски) */
-$specialPageAliases['mk'] = array(
-	'GlobalContributions' => array( 'ГлобалниПридонеси' ),
-);
+$specialPageAliases['mk'] = [
+	'GlobalContributions' => [ 'ГлобалниПридонеси' ],
+];
 
 /** Malayalam (മലയാളം) */
-$specialPageAliases['ml'] = array(
-	'GlobalContributions' => array( 'ആഗോളസംഭാവനകൾ' ),
-);
+$specialPageAliases['ml'] = [
+	'GlobalContributions' => [ 'ആഗോളസംഭാവനകൾ' ],
+];
 
 /** Malay (Bahasa Melayu) */
-$specialPageAliases['ms'] = array(
-	'GlobalContributions' => array( 'Sumbangan_global' ),
-);
+$specialPageAliases['ms'] = [
+	'GlobalContributions' => [ 'Sumbangan_global' ],
+];
 
 /** Dutch (Nederlands) */
-$specialPageAliases['nl'] = array(
-	'GlobalContributions' => array( 'GlobaleBijdragen' ),
-);
+$specialPageAliases['nl'] = [
+	'GlobalContributions' => [ 'GlobaleBijdragen' ],
+];
 
 /** Polish (polski) */
-$specialPageAliases['pl'] = array(
-	'GlobalContributions' => array( 'Globalny_wkład' ),
-);
+$specialPageAliases['pl'] = [
+	'GlobalContributions' => [ 'Globalny_wkład' ],
+];
 
 /** Portuguese (português) */
-$specialPageAliases['pt'] = array(
-	'GlobalContributions' => array( 'Contribuições_globais' ),
-);
+$specialPageAliases['pt'] = [
+	'GlobalContributions' => [ 'Contribuições_globais' ],
+];
 
 /** Swedish (svenska) */
-$specialPageAliases['sv'] = array(
-	'GlobalContributions' => array( 'Globala_bidrag' ),
-);
+$specialPageAliases['sv'] = [
+	'GlobalContributions' => [ 'Globala_bidrag' ],
+];
 
 /** Ukrainian (українська) */
-$specialPageAliases['uk'] = array(
-	'GlobalContributions' => array( 'Глобальний_внесок' ),
-);
+$specialPageAliases['uk'] = [
+	'GlobalContributions' => [ 'Глобальний_внесок' ],
+];
 
 /** Vietnamese (Tiếng Việt) */
-$specialPageAliases['vi'] = array(
-	'GlobalContributions' => array( 'Đóng_góp_toàn_cục' ),
-);
+$specialPageAliases['vi'] = [
+	'GlobalContributions' => [ 'Đóng_góp_toàn_cục' ],
+];
 
 /** Simplified Chinese (中文（简体）‎) */
-$specialPageAliases['zh-hans'] = array(
-	'GlobalContributions' => array( '全域贡献' ),
-);
+$specialPageAliases['zh-hans'] = [
+	'GlobalContributions' => [ '全域贡献' ],
+];
 
 /** Traditional Chinese (中文（繁體）‎) */
-$specialPageAliases['zh-hant'] = array(
-	'GlobalContributions' => array( '全域貢獻' ),
-);
+$specialPageAliases['zh-hant'] = [
+	'GlobalContributions' => [ '全域貢獻' ],
+];

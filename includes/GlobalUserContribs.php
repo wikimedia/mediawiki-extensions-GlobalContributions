@@ -52,13 +52,13 @@ class GlobalUserContribs extends ContextSource {
 	protected function getBlockInfo( $db ) {
 		// I totally stole this from CentralAuth
 		if ( !IP::isValid( $this->user->getName() ) ) {
-			$conds = array( 'ipb_address' => $this->user->getName() );
+			$conds = [ 'ipb_address' => $this->user->getName() ];
 		} else {
-			$conds = array( 'ipb_address' => IP::toHex( $this->user->getName() ) );
+			$conds = [ 'ipb_address' => IP::toHex( $this->user->getName() ) ];
 		}
 
 		$row = $db->selectRow( 'ipblocks',
-			array( 'ipb_expiry', 'ipb_reason', 'ipb_deleted' ),
+			[ 'ipb_expiry', 'ipb_reason', 'ipb_deleted' ],
 			$conds,
 			__METHOD__ );
 		if ( $row !== false
@@ -78,27 +78,27 @@ class GlobalUserContribs extends ContextSource {
 	protected function loadLocalData( $wiki ) {
 		$lbFactory = MediaWikiServices::getInstance()->getDBLoadBalancerFactory();
 		$lb = $lbFactory->getMainLB( $wiki );
-		$db = $lb->getConnection( DB_REPLICA, array(), $wiki );
-		$data = array( 'revisions' => array(), 'block' => array() );
+		$db = $lb->getConnection( DB_REPLICA, [], $wiki );
+		$data = [ 'revisions' => [], 'block' => [] ];
 
-		$conds = array(
+		$conds = [
 			'rev_deleted' => 0, // @todo let users with rights see deleted stuff
-		);
+		];
 
-		$fields = array(
+		$fields = [
 			'rev_id', 'rev_comment', 'rev_timestamp', 'rev_minor_edit',
 			'rev_len', 'rev_parent_id', 'rev_page',
 			'page_title', 'page_namespace',
-		);
-		$join = array(
-			'page' => array( 'JOIN', 'rev_page=page_id' )
-		);
+		];
+		$join = [
+			'page' => [ 'JOIN', 'rev_page=page_id' ]
+		];
 
 		if ( !IP::isIPAddress( $this->user->getName() ) ) {
 			$row = $db->selectRow(
 				'user',
-				array( 'user_id', 'user_editcount' ),
-				array( 'user_name' => $this->user->getName() ),
+				[ 'user_id', 'user_editcount' ],
+				[ 'user_name' => $this->user->getName() ],
 				__METHOD__
 			);
 			if ( $row === false ) {
@@ -122,11 +122,11 @@ class GlobalUserContribs extends ContextSource {
 			$conds['rev_user_text'] = $this->user->getName();
 		}
 		$rows = $db->select(
-			array( 'revision', 'page' ),
+			[ 'revision', 'page' ],
 			$fields,
 			$conds,
 			__METHOD__,
-			array( 'LIMIT' => 20, 'ORDER BY' => 'rev_timestamp DESC' ), // @todo make limit configurable
+			[ 'LIMIT' => 20, 'ORDER BY' => 'rev_timestamp DESC' ], // @todo make limit configurable
 			$join
 		);
 
@@ -140,7 +140,6 @@ class GlobalUserContribs extends ContextSource {
 		}
 
 		return $data;
-
 	}
 
 	/**
@@ -161,19 +160,18 @@ class GlobalUserContribs extends ContextSource {
 	 * @return string HTML
 	 */
 	protected function formatRow( $wiki, $row ) {
-		$html = Html::openElement( 'li', array( 'class' => 'mw-guc-changes-item plainlinks' ) );
+		$html = Html::openElement( 'li', [ 'class' => 'mw-guc-changes-item plainlinks' ] );
 		$lang = $this->getLanguage();
 		$index = $this->getForeignScript( $wiki );
 		$sep = ' <span class="mw-changeslist-separator">. .</span> ';
 
-
 		$ts = $lang->userTimeAndDate( $row->rev_timestamp, $this->getUser() );
-		$url = wfAppendQuery( $index, array( 'oldid' => $row->rev_id ) );
+		$url = wfAppendQuery( $index, [ 'oldid' => $row->rev_id ] );
 		$html .= Linker::makeExternalLink( $url, $ts );
-		$diff = wfAppendQuery( $index, array( 'diff' => $row->rev_id ) );
-		$difftext = Linker::makeExternalLink( $diff, $this->msg( 'diff')->escaped() );
-		$hist = wfAppendQuery( $index, array( 'action' => 'history', 'curid' => $row->rev_page ) );
-		$histtext = Linker::makeExternalLink( $hist, $this->msg( 'hist')->escaped() );
+		$diff = wfAppendQuery( $index, [ 'diff' => $row->rev_id ] );
+		$difftext = Linker::makeExternalLink( $diff, $this->msg( 'diff' )->escaped() );
+		$hist = wfAppendQuery( $index, [ 'action' => 'history', 'curid' => $row->rev_page ] );
+		$histtext = Linker::makeExternalLink( $hist, $this->msg( 'hist' )->escaped() );
 
 		$html .= ' ';
 		$html .= $this->msg( 'parentheses' )
@@ -201,7 +199,7 @@ class GlobalUserContribs extends ContextSource {
 		}
 		$html .= Linker::makeExternalLink(
 			// Because our name might not be exact, link using page_id
-			wfAppendQuery( $index, array( 'curid' => $row->rev_page) ),
+			wfAppendQuery( $index, [ 'curid' => $row->rev_page ] ),
 			$normTitle
 		);
 
@@ -216,7 +214,7 @@ class GlobalUserContribs extends ContextSource {
 					->escaped()
 				. '</span>';
 		}
-		//$html .= htmlspecialchars( $row->rev_comment );
+		// $html .= htmlspecialchars( $row->rev_comment );
 
 		$html .= Html::closeElement( 'li' );
 		return $html;
@@ -225,7 +223,7 @@ class GlobalUserContribs extends ContextSource {
 	protected function formatWiki( $wiki, $data ) {
 		$hostname = htmlspecialchars( WikiMap::getWiki( $wiki )->getDisplayName() );
 		$html = "<h2 class=\"mw-guc-header\">$hostname</h2>";
-		$html .= Html::openElement( 'ul', array( 'class' => 'mw-guc-changes-list' ) );
+		$html .= Html::openElement( 'ul', [ 'class' => 'mw-guc-changes-list' ] );
 		foreach ( $data['revisions'] as $row ) {
 			$html .= $this->formatRow( $wiki, $row );
 		}
@@ -246,7 +244,7 @@ class GlobalUserContribs extends ContextSource {
 
 	public function getContribs() {
 		$wikis = $this->getWikisToQuery();
-		$data = array();
+		$data = [];
 		foreach ( $wikis as $wiki ) {
 			$localData = $this->loadLocalData( $wiki );
 			if ( $localData !== false ) {
@@ -269,7 +267,7 @@ class GlobalUserContribs extends ContextSource {
 		if ( $this->namespaces === false ) {
 			$data = $cache->get( 'guc::namespaces' );
 			if ( $data === false ) {
-				$this->namespaces = array();
+				$this->namespaces = [];
 			} else {
 				$this->namespaces = $data;
 			}
@@ -298,12 +296,12 @@ class GlobalUserContribs extends ContextSource {
 		}
 
 		// Blegh. At this point, we should just make an API request.
-		$params = array(
+		$params = [
 			'action' => 'query',
 			'meta' => 'siteinfo',
 			'siprop' => 'namespaces',
 			'format' => 'json'
-		);
+		];
 
 		$api = $this->getForeignScript( $wiki, 'api' );
 		$url = wfAppendQuery( $api, $params );
@@ -312,7 +310,7 @@ class GlobalUserContribs extends ContextSource {
 		$json = $req->getContent();
 		$decoded = FormatJson::decode( $json, true );
 		// Store everything we've got.
-		$map = array_map( function( $val ) {
+		$map = array_map( function ( $val ) {
 			return $val['*'];
 		}, $decoded['query']['namespaces'] );
 		$this->namespaces[$wiki] = array_merge( $this->namespaces[$wiki], $map );
