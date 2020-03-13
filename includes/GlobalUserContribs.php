@@ -1,6 +1,7 @@
 <?php
 
 use MediaWiki\MediaWikiServices;
+use Wikimedia\IPUtils;
 
 class GlobalUserContribs extends ContextSource {
 	/** @var User $user to fetch contributions for */
@@ -21,7 +22,7 @@ class GlobalUserContribs extends ContextSource {
 	protected function getWikisToQuery() {
 		$wikis = $this->getWikiList();
 		// Try to use the CA localnames table if possible
-		if ( class_exists( 'CentralAuthUser' ) && !IP::isIPAddress( $this->user->getName() ) ) {
+		if ( class_exists( 'CentralAuthUser' ) && !IPUtils::isIPAddress( $this->user->getName() ) ) {
 			$caUser = CentralAuthUser::getInstance( $this->user );
 			return array_intersect(
 				array_merge( $caUser->listAttached(), $caUser->listUnattached() ),
@@ -51,10 +52,10 @@ class GlobalUserContribs extends ContextSource {
 	 */
 	protected function getBlockInfo( $db ) {
 		// I totally stole this from CentralAuth
-		if ( !IP::isValid( $this->user->getName() ) ) {
+		if ( !IPUtils::isValid( $this->user->getName() ) ) {
 			$conds = [ 'ipb_address' => $this->user->getName() ];
 		} else {
-			$conds = [ 'ipb_address' => IP::toHex( $this->user->getName() ) ];
+			$conds = [ 'ipb_address' => IPUtils::toHex( $this->user->getName() ) ];
 		}
 
 		$row = $db->selectRow( 'ipblocks',
@@ -94,7 +95,7 @@ class GlobalUserContribs extends ContextSource {
 			'page' => [ 'JOIN', 'rev_page=page_id' ]
 		];
 
-		if ( !IP::isIPAddress( $this->user->getName() ) ) {
+		if ( !IPUtils::isIPAddress( $this->user->getName() ) ) {
 			$row = $db->selectRow(
 				'user',
 				[ 'user_id', 'user_editcount' ],

@@ -1,5 +1,7 @@
 <?php
 
+use Wikimedia\IPUtils;
+
 class SpecialGlobalContributions extends FormSpecialPage {
 
 	protected $title;
@@ -40,7 +42,7 @@ class SpecialGlobalContributions extends FormSpecialPage {
 
 		$name = $data['user'];
 		$user = User::newFromName( $name );
-		if ( !$user && !IP::isIPAddress( $name ) ) {
+		if ( !$user && !IPUtils::isIPAddress( $name ) ) {
 			if ( trim( $name ) ) {
 				// If they just visit the page with no input,
 				// don't show any error.
