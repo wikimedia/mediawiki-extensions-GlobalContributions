@@ -146,7 +146,7 @@ class GlobalUserContribs extends ContextSource {
 	/**
 	 * Assumes whomever set up this farm was sane enough
 	 * to use the same script path everywhere
-	 * @param $wiki
+	 * @param string $wiki
 	 * @param string $type
 	 * @return string
 	 */
@@ -258,7 +258,7 @@ class GlobalUserContribs extends ContextSource {
 
 	/**
 	 * @param string $wiki
-	 * @param $nsid
+	 * @param int $nsid
 	 * @return string
 	 */
 	protected function getForeignNSName( $wiki, $nsid ) {
