@@ -4,9 +4,9 @@ use MediaWiki\MediaWikiServices;
 use Wikimedia\IPUtils;
 
 class GlobalUserContribs extends ContextSource {
-	/** @var User $user to fetch contributions for */
+	/** @var User to fetch contributions for */
 	protected $user;
-	/** @var array|bool $namespaces */
+	/** @var array|bool */
 	protected $namespaces = false;
 
 	public function __construct( User $user, IContextSource $context ) {
