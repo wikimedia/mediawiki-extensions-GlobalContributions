@@ -1,4 +1,5 @@
 /node_modules/
 /vendor/
 /composer.lock
+/.eslintcache
 .DS_Store
