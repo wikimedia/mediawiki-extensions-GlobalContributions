@@ -4,21 +4,28 @@ use Wikimedia\IPUtils;
 
 class SpecialGlobalContributions extends FormSpecialPage {
 
+	/** @var Title */
 	protected $title;
 
+	/** @var User */
 	protected $user;
 
 	public function __construct() {
 		parent::__construct( 'GlobalContributions' );
 	}
 
+	/**
+	 * @param HTMLForm $form
+	 */
 	protected function alterForm( HTMLForm $form ) {
 		$form->setMethod( 'GET' );
 		$context = new DerivativeContext( $this->getContext() );
-		$context->setTitle( $this->getPageTitle() ); // Strip subpage
+		// Strip subpage
+		$context->setTitle( $this->getPageTitle() );
 		$form->setContext( $context );
 	}
 
+	/** @inheritDoc */
 	protected function getFormFields() {
 		return [
 			'user' => [
@@ -31,11 +38,16 @@ class SpecialGlobalContributions extends FormSpecialPage {
 		];
 	}
 
+	/**
+	 * @param array $data
+	 * @return bool true
+	 */
 	public function onSubmit( array $data ) {
 		// @todo Given that we're overriding a lot, figure out
 		// if we should just use a normal SpecialPage
 		$form = $this->getForm();
-		$form->mFieldData = $data; // Well, this works!
+		// Well, this works!
+		$form->mFieldData = $data;
 		$form->displayForm( false );
 
 		$out = $this->getOutput();
@@ -58,10 +70,12 @@ class SpecialGlobalContributions extends FormSpecialPage {
 		return true;
 	}
 
+	/** @inheritDoc */
 	protected function getGroupName() {
 		return 'users';
 	}
 
+	/** @inheritDoc */
 	protected function getDisplayFormat() {
 		return 'ooui';
 	}

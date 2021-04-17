@@ -6,9 +6,14 @@ use Wikimedia\IPUtils;
 class GlobalUserContribs extends ContextSource {
 	/** @var User to fetch contributions for */
 	protected $user;
+
 	/** @var array|bool */
 	protected $namespaces = false;
 
+	/**
+	 * @param User $user
+	 * @param IContextSource $context
+	 */
 	public function __construct( User $user, IContextSource $context ) {
 		$this->user = $user;
 		$this->setContext( $context );
@@ -17,6 +22,7 @@ class GlobalUserContribs extends ContextSource {
 	/**
 	 * return a list of databases we should check on
 	 * for the current user
+	 *
 	 * @return array
 	 */
 	protected function getWikisToQuery() {
@@ -47,6 +53,7 @@ class GlobalUserContribs extends ContextSource {
 
 	/**
 	 * Get's a user's block info
+	 *
 	 * @param \Wikimedia\Rdbms\IDatabase $db
 	 * @return stdClass|bool false if not blocked
 	 */
@@ -73,6 +80,7 @@ class GlobalUserContribs extends ContextSource {
 
 	/**
 	 * Loads revisions for the specified wiki
+	 *
 	 * @param string $wiki wikiid
 	 * @return array|bool false if user doesn't exist or is hidden
 	 */
@@ -83,7 +91,8 @@ class GlobalUserContribs extends ContextSource {
 		$data = [ 'revisions' => [], 'block' => [] ];
 
 		$conds = [
-			'rev_deleted' => 0, // @todo let users with rights see deleted stuff
+			// @todo let users with rights see deleted stuff
+			'rev_deleted' => 0,
 		];
 
 		$fields = [
@@ -114,7 +123,8 @@ class GlobalUserContribs extends ContextSource {
 				$data['block'] = $this->getBlockInfo( $db );
 				$lb->reuseConnection( $db );
 				if ( $data['block'] && $data['block']->ipb_deleted !== 0 ) {
-					return false; // hideuser, pretend it doesn't exist.
+					// hideuser, pretend it doesn't exist.
+					return false;
 				}
 				return $data;
 			}
@@ -127,7 +137,8 @@ class GlobalUserContribs extends ContextSource {
 			$fields,
 			$conds,
 			__METHOD__,
-			[ 'LIMIT' => 20, 'ORDER BY' => 'rev_timestamp DESC' ], // @todo make limit configurable
+			// @todo make limit configurable
+			[ 'LIMIT' => 20, 'ORDER BY' => 'rev_timestamp DESC' ],
 			$join
 		);
 
@@ -137,7 +148,8 @@ class GlobalUserContribs extends ContextSource {
 		$lb->reuseConnection( $db );
 
 		if ( $data['block'] && $data['block']->ipb_deleted !== 0 ) {
-			return false; // hideuser, pretend it doesn't exist.
+			// hideuser, pretend it doesn't exist.
+			return false;
 		}
 
 		return $data;
@@ -146,6 +158,7 @@ class GlobalUserContribs extends ContextSource {
 	/**
 	 * Assumes whomever set up this farm was sane enough
 	 * to use the same script path everywhere
+	 *
 	 * @param string $wiki
 	 * @param string $type
 	 * @return string|null
@@ -160,6 +173,7 @@ class GlobalUserContribs extends ContextSource {
 
 	/**
 	 * Turns a revision into a HTML row
+	 *
 	 * @param string $wiki
 	 * @param stdClass $row
 	 * @return string HTML
@@ -186,7 +200,8 @@ class GlobalUserContribs extends ContextSource {
 		$html .= $this->msg( 'parentheses' )
 			->rawParams( $difftext . $this->msg( 'pipe-separator' )->escaped() . $histtext )
 			->escaped();
-		$html .= $sep; // Divider
+		// Divider
+		$html .= $sep;
 
 		// @todo We are missing diff size here.
 
@@ -229,6 +244,11 @@ class GlobalUserContribs extends ContextSource {
 		return $html;
 	}
 
+	/**
+	 * @param string|bool $wiki
+	 * @param array $data
+	 * @return string
+	 */
 	protected function formatWiki( $wiki, $data ) {
 		$wikiRef = WikiMap::getWiki( $wiki );
 		if ( !$wikiRef ) {
@@ -244,6 +264,9 @@ class GlobalUserContribs extends ContextSource {
 		return $html;
 	}
 
+	/**
+	 * @return string
+	 */
 	public function getHtml() {
 		$html = '';
 		foreach ( $this->getContribs() as $wiki => $data ) {
@@ -255,6 +278,9 @@ class GlobalUserContribs extends ContextSource {
 		return $html;
 	}
 
+	/**
+	 * @return array
+	 */
 	public function getContribs() {
 		$wikis = $this->getWikisToQuery();
 		$data = [];
