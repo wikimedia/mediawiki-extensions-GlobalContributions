@@ -301,7 +301,7 @@ class GlobalUserContribs extends ContextSource {
 	 */
 	protected function getForeignNSName( $wiki, $nsid ) {
 		global $wgConf;
-		$cache = wfGetCache( CACHE_ANYTHING );
+		$cache = ObjectCache::getInstance( CACHE_ANYTHING );
 
 		if ( $this->namespaces === false ) {
 			$data = $cache->get( 'guc::namespaces' );
@@ -369,7 +369,7 @@ class GlobalUserContribs extends ContextSource {
 	 */
 	protected function saveNSToCache() {
 		if ( $this->namespaces !== false ) {
-			wfGetCache( CACHE_ANYTHING )->set( 'guc::namespaces', $this->namespaces );
+			ObjectCache::getInstance( CACHE_ANYTHING )->set( 'guc::namespaces', $this->namespaces );
 		}
 	}
 }
