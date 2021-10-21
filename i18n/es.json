@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fitoschido"
+			"Fitoschido",
+			"Jakeukalane"
 		]
 	},
-	"guc-desc": "Permite visualizar las contribuciones de un usuario en todos los wikis",
+	"guc-desc": "Permite visualizar las contribuciones de un usuario en todas las wikis",
 	"guc-form-user": "Nombre de usuario o dirección IP",
 	"guc-invalid-username": "El nombre de usuario o IP proporcionado no es válido",
 	"globalcontributions": "Contribuciones globales",
