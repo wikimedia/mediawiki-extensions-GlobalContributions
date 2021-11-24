@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"guc-desc": "Permitte que usatores vide le contributiones de un usator sur tote le wikis",
+	"guc-form-user": "Nomine de usator o adresse IP",
+	"guc-invalid-username": "Le nomine de usator o adresse IP fornite non es valide",
+	"globalcontributions": "Contributiones global",
+	"globalcontributions-legend": "Contributiones global"
+}
