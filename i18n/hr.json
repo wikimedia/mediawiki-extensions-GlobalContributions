@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"MaGa"
+		]
+	},
+	"guc-desc": "Omogućuje suradnicima pregled doprinosa suradnika na svim wikijima",
+	"guc-form-user": "Suradničko ime ili IP adresa",
+	"guc-invalid-username": "Nevažeće suradničko ime ili IP adresa",
+	"globalcontributions": "Globalni doprinosi",
+	"globalcontributions-legend": "Globalni doprinosi"
+}
