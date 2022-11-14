@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Janezdrilc"
+			"Janezdrilc",
+			"Eleassar"
 		]
 	},
-	"guc-desc": "Uporabnikom omogoča pregled uporabnikovih prispevkov iz vseh wikijev.",
+	"guc-desc": "Uporabnikom omogoča pregled uporabnikovih prispevkov v vseh vikijih.",
 	"guc-form-user": "Uporabniško ime ali IP naslov",
 	"guc-invalid-username": "Navedeno je neveljavno uporabniško ime ali IP naslov",
 	"globalcontributions": "Globalni prispevki",
