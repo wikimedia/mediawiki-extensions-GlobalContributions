@@ -231,7 +231,6 @@ class GlobalUserContribs extends ContextSource {
 		$html .= ' ';
 
 		// @todo make links here...
-		//$html .= Linker::formatComment( $row->rev_comment );
 		if ( $row->rev_comment ) {
 			$html .= '<span class="comment">'
 				. $this->msg( 'parentheses' )
@@ -239,7 +238,6 @@ class GlobalUserContribs extends ContextSource {
 					->escaped()
 				. '</span>';
 		}
-		// $html .= htmlspecialchars( $row->rev_comment );
 
 		$html .= Html::closeElement( 'li' );
 		return $html;
