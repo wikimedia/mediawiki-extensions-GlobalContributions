@@ -346,7 +346,7 @@ class GlobalUserContribs extends ContextSource {
 		$api = $this->getForeignScript( $wiki, 'api' );
 		if ( $api ) {
 			$url = wfAppendQuery( $api, $params );
-			$req = MWHttpRequest::factory( $url );
+			$req = MediaWikiServices::getInstance()->getHttpRequestFactory()->create( $url );
 			$req->execute();
 			$json = $req->getContent();
 			$decoded = FormatJson::decode( $json, true );
