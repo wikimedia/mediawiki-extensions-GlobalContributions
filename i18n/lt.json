@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nokeoo"
+		]
+	},
+	"guc-desc": "Leidžia naudotojams peržiūrėti naudotojo indėlį visuose viki",
+	"guc-form-user": "Naudotojo vardas ir IP adresas",
+	"guc-invalid-username": "Pateiktas neteisingas naudotojo vardas arba IP adresas",
+	"globalcontributions": "Visi indėliai",
+	"globalcontributions-legend": "Visi indėliai"
+}
