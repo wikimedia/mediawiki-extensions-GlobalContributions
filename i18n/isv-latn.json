@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"IJzeren Jan"
+		]
+	},
+	"guc-desc": "Umožnjaje prěgledanje vklad koristnika vo vsih viki",
+	"guc-form-user": "Koristničsko ime ili IP-adres",
+	"guc-invalid-username": "Ukazano nepravilno koristničsko ime ili IP-adres",
+	"globalcontributions": "Globalny vklad",
+	"globalcontributions-legend": "Globalny vklad"
+}
