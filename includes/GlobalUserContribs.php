@@ -115,14 +115,12 @@ class GlobalUserContribs extends ContextSource {
 			if ( $row === false ) {
 				// This shouldn't be possible with shared user tables or CA
 				// but...be safe.
-				$lb->reuseConnection( $db );
 				return false;
 			}
 			// This won't work for shared user tables but, if the user
 			// has no edits, don't make the extra query and return early.
 			if ( $row->user_editcount === 0 ) {
 				$data['block'] = $this->getBlockInfo( $db );
-				$lb->reuseConnection( $db );
 				if ( $data['block'] && $data['block']->ipb_deleted !== 0 ) {
 					// hideuser, pretend it doesn't exist.
 					return false;
@@ -145,8 +143,6 @@ class GlobalUserContribs extends ContextSource {
 
 		$data['revisions'] = $rows;
 		$data['blocks'] = $this->getBlockInfo( $db );
-
-		$lb->reuseConnection( $db );
 
 		if ( $data['block'] && $data['block']->ipb_deleted !== 0 ) {
 			// hideuser, pretend it doesn't exist.
