@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ekminarin"
+		]
+	},
+	"guc-form-user": "ชื่อผู้ใช้หรือที่อยู่ไอพี",
+	"globalcontributions": "ส่วนร่วมข้ามโครงการ",
+	"globalcontributions-legend": "ส่วนร่วมข้ามโครงการ"
+}
