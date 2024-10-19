@@ -28,6 +28,11 @@ $specialPageAliases['bgn'] = [
 	'GlobalContributions' => [ 'سراسرین_شراکت_ئان' ],
 ];
 
+/** Bengali (বাংলা) */
+$specialPageAliases['bn'] = [
+	'GlobalContributions' => [ 'বৈশ্বিক_অবদান' ],
+];
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = [
 	'GlobalContributions' => [ 'Globale_Beiträge' ],
