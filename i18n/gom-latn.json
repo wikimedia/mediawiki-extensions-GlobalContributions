@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"The Discoverer"
+			"The Discoverer",
+			"QW90"
 		]
 	},
-	"guc-form-user": "Vaporpeachem nanv vo IP pot'to"
+	"guc-form-user": "Vaporpeachem nanv vo IP pot'to",
+	"guc-invalid-username": "Ovoid vaporpeachem nanv vo IP pot'to dilea",
+	"globalcontributions": "Sorvthikanecheo yogdanam",
+	"globalcontributions-legend": "Sorvthikanecheo yogdanam"
 }
