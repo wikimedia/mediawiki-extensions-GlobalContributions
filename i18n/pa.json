@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kuldeepburjbhalaike"
+			"Kuldeepburjbhalaike",
+			"Cabal"
 		]
 	},
 	"guc-desc": "ਵਰਤੋਂਕਾਰਾਂ ਨੂੰ ਸਾਰੇ ਵਿਕੀਆਂ ਵਿੱਚ ਵਰਤੋਂਕਾਰ ਦੇ ਯੋਗਦਾਨ ਨੂੰ ਵੇਖਣ ਦੀ ਆਗਿਆ ਦਿੰਦਾ ਹੈ",
 	"guc-form-user": "ਵਰਤੋਂਕਾਰ ਨਾਮ ਜਾਂ ਆਈਪੀ ਪਤਾ",
 	"guc-invalid-username": "ਅਵੈਧ ਵਰਤੋਂਕਾਰ ਨਾਮ ਜਾਂ ਆਈਪੀ ਪਤਾ ਦਿੱਤਾ ਗਿਆ ਹੈ",
-	"globalcontributions": "ਗਲੋਬਲ ਯੋਗਦਾਨ",
-	"globalcontributions-legend": "ਗਲੋਬਲ ਯੋਗਦਾਨ"
+	"globalcontributions": "ਵਿਸ਼ਵ ਪੱਧਰੀ ਯੋਗਦਾਨ",
+	"globalcontributions-legend": "ਵਿਸ਼ਵ ਪੱਧਰੀ ਯੋਗਦਾਨ"
 }
