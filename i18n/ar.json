@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Asaifm"
+			"Asaifm",
+			"Meno25"
 		]
 	},
 	"guc-desc": "يسمح للمستخدمين بمطالعة مساهمات مستخدم ما على كل الويكيات",
 	"guc-form-user": "اسم مستخدم أو عنوان بروتوكول إنترنت",
 	"guc-invalid-username": "تم توفير اسم مستخدم أو عنوان بروتوكول إنترنت غير صحيح",
-	"globalcontributions": "المساهمات الإجمالية",
+	"globalcontributions": "مساهمات عالمية",
 	"globalcontributions-legend": "المساهمات الإجمالية"
 }
