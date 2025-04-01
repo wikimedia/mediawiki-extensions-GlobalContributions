@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Danmichaelo"
+			"Danmichaelo",
+			"Jon Harald Søby"
 		]
 	},
 	"guc-desc": "Lar brukere vise en brukers bidrag på tvers av alle wikier",
 	"guc-form-user": "Brukernavn eller IP-adresse",
 	"guc-invalid-username": "Ugyldig brukernavn eller IP-adresse oppgitt",
-	"globalcontributions": "Globale bidrag",
-	"globalcontributions-legend": "Globale bidrag"
+	"globalcontributions": "Bidrag globalt",
+	"globalcontributions-legend": "Bidrag globalt"
 }
