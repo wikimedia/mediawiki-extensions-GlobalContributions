@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"KartikMistry"
+		]
+	},
+	"guc-desc": "સભ્યોને બધા વિકિ પર સભ્યોના યોગદાનો જોવાની સુવિધા આપે છે.",
+	"guc-form-user": "સભ્યનામ અથવા IP સરનામું",
+	"guc-invalid-username": "અયોગ્ય સભ્યનામ અથવા IP સરનામું પ્રદાન કરેલ છે",
+	"globalcontributions": "વૈશ્વિક યોગદાનો",
+	"globalcontributions-legend": "વૈશ્વિક યોગદાનો"
+}
