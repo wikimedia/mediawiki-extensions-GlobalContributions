@@ -1,11 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Siddhartha Ghai"
+			"Siddhartha Ghai",
+			"Saurmandal"
 		]
 	},
-	"guc-form-user": "सदस्य नाम या आइ॰पी पता",
-	"guc-invalid-username": "दिया गया सदस्यनाम या आइ॰पी पता अमान्य है",
-	"globalcontributions": "वैश्विक योगदान",
-	"globalcontributions-legend": "वैश्विक योगदान"
+	"guc-desc": "सदस्यों को किसी सदस्य के सभी विकियों पर योगदान देखने देता है",
+	"guc-form-user": "सदस्यनाम या IP पता",
+	"guc-invalid-username": "दिया गया सदस्यनाम या IP पता अमान्य है",
+	"globalcontributions": "ग्लोबल योगदान",
+	"globalcontributions-legend": "ग्लोबल योगदान"
 }
