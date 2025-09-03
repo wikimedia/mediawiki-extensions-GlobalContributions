@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"BukhariSaeed"
+		]
+	},
+	"guc-desc": "صارفین کو جملہ ویکیوں پر صارف کی شراکتوں کو دیکھنے کی اجازت دیتا ہے",
+	"guc-form-user": "صارف نام یا آئی پی پتہ",
+	"guc-invalid-username": "غلط صارف نام یا آئی پی پتہ درج کیا گیا",
+	"globalcontributions": "عالمی شراکتیں",
+	"globalcontributions-legend": "عالمی شراکتیں"
+}
