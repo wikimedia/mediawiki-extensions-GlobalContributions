@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"NgocAnMaster"
+			"NgocAnMaster",
+			"NguoiDungKhongDinhDanh"
 		]
 	},
 	"guc-desc": "Cho phép người dùng xem đóng góp của thành viên trên tất cả các wiki",
 	"guc-form-user": "Tên thành viên hoặc địa chỉ IP",
-	"guc-invalid-username": "Tên thành viên hoặc địa chỉ IP được cung cấp không hợp lệ",
+	"guc-invalid-username": "Tên thành viên hoặc địa chỉ IP không hợp lệ",
 	"globalcontributions": "Đóng góp toàn cục",
 	"globalcontributions-legend": "Đóng góp toàn cục"
 }
