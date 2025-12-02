@@ -123,12 +123,17 @@ $specialPageAliases['vi'] = [
 	'GlobalContributions' => [ 'Đóng_góp_toàn_cục' ],
 ];
 
-/** Simplified Chinese (中文（简体）‎) */
+/** Chinese (中文) */
+$specialPageAliases['zh'] = [
+	'GlobalContributions' => [ 'GlobalContributions' ],
+];
+
+/** Simplified Chinese (中文（简体）) */
 $specialPageAliases['zh-hans'] = [
 	'GlobalContributions' => [ '全域贡献' ],
 ];
 
-/** Traditional Chinese (中文（繁體）‎) */
+/** Traditional Chinese (中文（繁體）) */
 $specialPageAliases['zh-hant'] = [
 	'GlobalContributions' => [ '全域貢獻' ],
 ];
