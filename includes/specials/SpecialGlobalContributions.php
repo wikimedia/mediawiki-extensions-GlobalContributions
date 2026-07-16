@@ -1,5 +1,6 @@
 <?php
 
+use MediaWiki\Title\Title;
 use Wikimedia\IPUtils;
 
 class SpecialGlobalContributions extends FormSpecialPage {

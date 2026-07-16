@@ -32,7 +32,7 @@ class GlobalUserContribs extends ContextSource {
 	protected function getWikisToQuery() {
 		$wikis = $this->getWikiList();
 		// Try to use the CA localnames table if possible
-		if ( class_exists( 'CentralAuthUser' ) && !IPUtils::isIPAddress( $this->user->getName() ) ) {
+		if ( class_exists( CentralAuthUser::class ) && !IPUtils::isIPAddress( $this->user->getName() ) ) {
 			$caUser = CentralAuthUser::getInstance( $this->user );
 			return array_intersect(
 				array_merge( $caUser->listAttached(), $caUser->listUnattached() ),
@@ -48,7 +48,7 @@ class GlobalUserContribs extends ContextSource {
 	 */
 	protected function getWikiList() {
 		global $wgGUCWikis, $wgLocalDatabases;
-		if ( empty( $wgGUCWikis ) ) {
+		if ( !$wgGUCWikis ) {
 			$wgGUCWikis = $wgLocalDatabases;
 		}
 
@@ -145,7 +145,7 @@ class GlobalUserContribs extends ContextSource {
 		);
 
 		$data['revisions'] = $rows;
-		$data['blocks'] = $this->getBlockInfo( $db );
+		$data['block'] = $this->getBlockInfo( $db );
 
 		if ( $data['block'] && $data['block']->ipb_deleted !== 0 ) {
 			// hideuser, pretend it doesn't exist.
@@ -206,11 +206,11 @@ class GlobalUserContribs extends ContextSource {
 		// @todo We are missing diff size here.
 
 		if ( $row->rev_parent_id === '0' ) {
-			$html .= ChangesList::flag( 'newpage' );
+			$html .= ChangesList::flag( 'newpage', $this->getContext() );
 		}
 
 		if ( $row->rev_minor_edit !== '0' ) {
-			$html .= ChangesList::flag( 'minor' );
+			$html .= ChangesList::flag( 'minor', $this->getContext() );
 		}
 
 		$html .= ' ';
@@ -343,7 +343,7 @@ class GlobalUserContribs extends ContextSource {
 		$api = $this->getForeignScript( $wiki, 'api' );
 		if ( $api ) {
 			$url = wfAppendQuery( $api, $params );
-			$req = MediaWikiServices::getInstance()->getHttpRequestFactory()->create( $url );
+			$req = MediaWikiServices::getInstance()->getHttpRequestFactory()->create( $url, [], __METHOD__ );
 			$req->execute();
 			$json = $req->getContent();
 			$decoded = FormatJson::decode( $json, true );
