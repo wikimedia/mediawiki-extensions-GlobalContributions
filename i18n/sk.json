@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"guc-desc": "Umožňuje používateľom zobraziť príspevky používateľa na všetkých wiki",
+	"guc-form-user": "Používateľské meno alebo IP adresa",
+	"guc-invalid-username": "Bolo zadané neplatné používateľské meno alebo IP adresa",
+	"globalcontributions": "Globálne príspevky",
+	"globalcontributions-legend": "Globálne príspevky"
+}
